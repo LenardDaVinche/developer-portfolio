@@ -1,0 +1,9 @@
+C:\Users\lbaro\OneDrive\Documents\Highlands College\BTEC Level 3 Extended Diploma in IT\Year 2\Programming\OOPButton\OOPButton\bin\Debug\OOPButton.exe.config
+C:\Users\lbaro\OneDrive\Documents\Highlands College\BTEC Level 3 Extended Diploma in IT\Year 2\Programming\OOPButton\OOPButton\bin\Debug\OOPButton.exe
+C:\Users\lbaro\OneDrive\Documents\Highlands College\BTEC Level 3 Extended Diploma in IT\Year 2\Programming\OOPButton\OOPButton\bin\Debug\OOPButton.pdb
+C:\Users\lbaro\OneDrive\Documents\Highlands College\BTEC Level 3 Extended Diploma in IT\Year 2\Programming\OOPButton\OOPButton\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\Users\lbaro\OneDrive\Documents\Highlands College\BTEC Level 3 Extended Diploma in IT\Year 2\Programming\OOPButton\OOPButton\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\lbaro\OneDrive\Documents\Highlands College\BTEC Level 3 Extended Diploma in IT\Year 2\Programming\OOPButton\OOPButton\obj\Debug\OOPButton.csproj.GenerateResource.Cache
+C:\Users\lbaro\OneDrive\Documents\Highlands College\BTEC Level 3 Extended Diploma in IT\Year 2\Programming\OOPButton\OOPButton\obj\Debug\OOPButton.csproj.CoreCompileInputs.cache
+C:\Users\lbaro\OneDrive\Documents\Highlands College\BTEC Level 3 Extended Diploma in IT\Year 2\Programming\OOPButton\OOPButton\obj\Debug\OOPButton.exe
+C:\Users\lbaro\OneDrive\Documents\Highlands College\BTEC Level 3 Extended Diploma in IT\Year 2\Programming\OOPButton\OOPButton\obj\Debug\OOPButton.pdb

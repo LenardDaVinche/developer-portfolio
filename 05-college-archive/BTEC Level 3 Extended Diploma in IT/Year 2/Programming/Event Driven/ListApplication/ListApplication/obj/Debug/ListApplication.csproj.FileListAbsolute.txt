@@ -1,0 +1,10 @@
+C:\Users\lbaro\OneDrive\Documents\Highlands College\BTEC Level 3 Extended Diploma in IT\ListApplication\ListApplication\bin\Debug\ListApplication.exe.config
+C:\Users\lbaro\OneDrive\Documents\Highlands College\BTEC Level 3 Extended Diploma in IT\ListApplication\ListApplication\bin\Debug\ListApplication.exe
+C:\Users\lbaro\OneDrive\Documents\Highlands College\BTEC Level 3 Extended Diploma in IT\ListApplication\ListApplication\bin\Debug\ListApplication.pdb
+C:\Users\lbaro\OneDrive\Documents\Highlands College\BTEC Level 3 Extended Diploma in IT\ListApplication\ListApplication\obj\Debug\ListApplication.csprojResolveAssemblyReference.cache
+C:\Users\lbaro\OneDrive\Documents\Highlands College\BTEC Level 3 Extended Diploma in IT\ListApplication\ListApplication\obj\Debug\WindowsFormsApplication1.List.resources
+C:\Users\lbaro\OneDrive\Documents\Highlands College\BTEC Level 3 Extended Diploma in IT\ListApplication\ListApplication\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\lbaro\OneDrive\Documents\Highlands College\BTEC Level 3 Extended Diploma in IT\ListApplication\ListApplication\obj\Debug\ListApplication.csproj.GenerateResource.Cache
+C:\Users\lbaro\OneDrive\Documents\Highlands College\BTEC Level 3 Extended Diploma in IT\ListApplication\ListApplication\obj\Debug\ListApplication.csproj.CoreCompileInputs.cache
+C:\Users\lbaro\OneDrive\Documents\Highlands College\BTEC Level 3 Extended Diploma in IT\ListApplication\ListApplication\obj\Debug\ListApplication.exe
+C:\Users\lbaro\OneDrive\Documents\Highlands College\BTEC Level 3 Extended Diploma in IT\ListApplication\ListApplication\obj\Debug\ListApplication.pdb

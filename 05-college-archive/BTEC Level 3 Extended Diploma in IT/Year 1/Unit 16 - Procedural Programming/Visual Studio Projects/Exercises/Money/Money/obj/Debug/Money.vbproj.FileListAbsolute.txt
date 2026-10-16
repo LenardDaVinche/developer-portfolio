@@ -1,0 +1,2 @@
+C:\Users\lbaro\AppData\Local\Temporary Projects\Money\bin\Debug\Money.exe.config
+C:\Users\lbaro\OneDrive\Documents\Highlands College\BTEC Level 3 Extended Diploma in IT\Unit 16 - Procedural Programming\Visual Studio Projects\Money\Money\bin\Debug\Money.exe.config

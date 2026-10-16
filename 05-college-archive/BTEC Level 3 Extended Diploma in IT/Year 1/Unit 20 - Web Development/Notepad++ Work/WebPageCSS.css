@@ -1,0 +1,44 @@
+div{margin-top:25px;
+    margin-right:35px;
+    margin-bottom:20px;
+    margin-left:30px;
+	width:90%;
+    background-color:#f7f5f4;
+    height:auto;
+	padding:25px 35px 20px 30px;
+	font-family:"Arial";
+	border: thin double red;
+}
+
+h1{  
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;  
+	text-align:center;  
+	color:black;  
+	font-size:1.5em; } 
+#tracks{ 
+	width:100%;  
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;  
+	border-collapse:collapse; } 
+#tracks td{ height:40px;      
+	font-size:1em;  
+	border:thin double red;      
+	padding:5px;
+ } 
+#tracks th{  
+	height:50px;      
+	font-size:1.3em; 
+	border:thin double red;      
+	padding:5px;      
+	text-align:center;      
+	background-color:#f7f5f4;      
+	color:black; } 
+#tracks tr.odd td{      
+	color:black;      
+	background-color:#f7f5f4;
+}
+img{background-color:yellow;     
+	position:absolute;     
+	left:10px;     
+	top:10px;     
+	z-index:-1; 
+}

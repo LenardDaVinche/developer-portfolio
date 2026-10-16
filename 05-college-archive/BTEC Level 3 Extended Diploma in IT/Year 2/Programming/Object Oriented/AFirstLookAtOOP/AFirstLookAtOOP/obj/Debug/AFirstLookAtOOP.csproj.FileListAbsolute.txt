@@ -1,0 +1,5 @@
+C:\Users\lbaro\OneDrive\Documents\Highlands College\BTEC Level 3 Extended Diploma in IT\Year 2\Programming\AFirstLookAtOOP\AFirstLookAtOOP\obj\Debug\AFirstLookAtOOP.csprojResolveAssemblyReference.cache
+C:\Users\lbaro\OneDrive\Documents\Highlands College\BTEC Level 3 Extended Diploma in IT\Year 2\Programming\AFirstLookAtOOP\AFirstLookAtOOP\obj\Debug\AFirstLookAtOOP.Form1.resources
+C:\Users\lbaro\OneDrive\Documents\Highlands College\BTEC Level 3 Extended Diploma in IT\Year 2\Programming\AFirstLookAtOOP\AFirstLookAtOOP\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\lbaro\OneDrive\Documents\Highlands College\BTEC Level 3 Extended Diploma in IT\Year 2\Programming\AFirstLookAtOOP\AFirstLookAtOOP\obj\Debug\AFirstLookAtOOP.csproj.GenerateResource.Cache
+C:\Users\lbaro\OneDrive\Documents\Highlands College\BTEC Level 3 Extended Diploma in IT\Year 2\Programming\AFirstLookAtOOP\AFirstLookAtOOP\obj\Debug\AFirstLookAtOOP.csproj.CoreCompileInputs.cache

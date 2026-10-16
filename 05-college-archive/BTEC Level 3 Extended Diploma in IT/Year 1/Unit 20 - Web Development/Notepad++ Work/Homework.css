@@ -1,0 +1,72 @@
+body{
+margin:0px;
+padding:0px;
+background-repeat: no-repeat;
+background-size:100%
+}
+#container{
+width:1000px;
+margin-left:auto;
+margin-right:auto;
+min-width:1024px;
+border:5px solid black;
+background-color:white;
+height:900px;
+margin-top:25px;
+opacity:0.8;
+}
+#header{
+height:200px;
+width:200px;
+border-bottom:5px solid black;
+background-color:blue;
+}
+#p1{font-size: 200%;
+position:absolute;
+margin-top:0px;
+margin-left:10px;
+font-family: "Comic Sans MS", cursive, sans-serif;
+color: white;
+}
+#p2{font-size:150%;
+position:absolute;
+margin-top:50px;
+margin-left:0px;
+font-family: "Comic Sans MS", cursive, sans-serif;
+color: white;
+}
+#left_side{
+height:590px;
+width:197px;
+border:5px solid black;
+background-color: darkorange;
+float:left;
+margin-top:100px;
+margin-left:-4px
+}
+#main_placeholder{
+margin-left:200px;
+width:820px;
+border:5px solid black;
+background-color:yellow;
+margin-top:100px;
+height:590px;
+}
+#navbox{
+height:95px;
+width:1024px;
+border:5px solid black;
+background-color:green;
+float:left;
+margin-top:-698px;
+margin-left:-4px
+}
+#titlebox{
+height:200px;
+width:820px;
+border:5px solid black;
+background-color:red;
+float:left;
+margin-top:-906px;
+margin-left:200px
+}

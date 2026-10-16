@@ -1,0 +1,12 @@
+C:\Users\lbaro\OneDrive\Documents\Highlands College\BTEC Level 3 Extended Diploma in IT\MyApp2\MyApp2\bin\Debug\MyApp2.exe.config
+C:\Users\lbaro\OneDrive\Documents\Highlands College\BTEC Level 3 Extended Diploma in IT\MyApp2\MyApp2\bin\Debug\MyApp2.exe
+C:\Users\lbaro\OneDrive\Documents\Highlands College\BTEC Level 3 Extended Diploma in IT\MyApp2\MyApp2\bin\Debug\MyApp2.pdb
+C:\Users\lbaro\OneDrive\Documents\Highlands College\BTEC Level 3 Extended Diploma in IT\MyApp2\MyApp2\obj\Debug\MyApp2.csprojResolveAssemblyReference.cache
+C:\Users\lbaro\OneDrive\Documents\Highlands College\BTEC Level 3 Extended Diploma in IT\MyApp2\MyApp2\obj\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\lbaro\OneDrive\Documents\Highlands College\BTEC Level 3 Extended Diploma in IT\MyApp2\MyApp2\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\lbaro\OneDrive\Documents\Highlands College\BTEC Level 3 Extended Diploma in IT\MyApp2\MyApp2\obj\Debug\MyApp2.csproj.GenerateResource.Cache
+C:\Users\lbaro\OneDrive\Documents\Highlands College\BTEC Level 3 Extended Diploma in IT\MyApp2\MyApp2\obj\Debug\MyApp2.exe
+C:\Users\lbaro\OneDrive\Documents\Highlands College\BTEC Level 3 Extended Diploma in IT\MyApp2\MyApp2\obj\Debug\MyApp2.pdb
+C:\Users\lbaro\OneDrive\Documents\Highlands College\BTEC Level 3 Extended Diploma in IT\Year 2\Programming\MyApp2\MyApp2\bin\Debug\MyApp2.exe.config
+C:\Users\lbaro\OneDrive\Documents\Highlands College\BTEC Level 3 Extended Diploma in IT\Year 2\Programming\MyApp2\MyApp2\obj\Debug\MyApp2.exe
+C:\Users\lbaro\OneDrive\Documents\Highlands College\BTEC Level 3 Extended Diploma in IT\Year 2\Programming\MyApp2\MyApp2\obj\Debug\MyApp2.pdb

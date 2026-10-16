@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page 1</title>
+<meta charset="UTF-8">
+</head>
+<body>
+<h1>Hugh Mungus</h1>
+<p>Welcome to the wonderful world of Hugh Mungus! Click <a href="page2.html">here</a> to visit the cool world of Hugh Mungus's second page!</p>
+
+<p>
+Hugh Mungus rocks! click <a href="https://www.google.je/url?sa=t&rct=j&q=&esrc=s&source=web&cd=2&cad=rja&uact=8&ved=0ahUKEwjnsZP6-5PPAhWkK8AKHfLYC3kQqQIIIzAB&url=http%3A%2F%2Fboingboing.net%2F2016%2F09%2F16%2Fdad-joke-turns-into-a-hugh-mun.html&usg=AFQjCNFdcfFPVkqoMImtWE8WvdDzOspRQQ"> here</a> to visit the start of his legacy!
+</p>
+</body>
+</html>

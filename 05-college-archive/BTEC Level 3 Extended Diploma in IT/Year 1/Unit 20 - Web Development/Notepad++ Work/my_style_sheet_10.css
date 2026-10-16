@@ -1,0 +1,26 @@
+h1{  
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;  
+	text-align:center;  
+	color:#00006B;  
+	font-size:1.5em; } 
+#tracks{ 
+	width:100%;  
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;  
+	border-collapse:collapse; } 
+#tracks td{ height:40px;      
+	font-size:1em;  
+	border:1px solid #2595BA;      
+	padding:5px;
+ } 
+#tracks th{  
+	height:50px;      
+	font-size:1.3em; 
+	border:1px solid #2595BA;      
+	padding:5px;      
+	text-align:center;      
+	background-color:#D3EAF1;      
+	color:#00006B; } 
+#tracks tr.odd td{      
+	color:#00006B;      
+	background-color:#E0F0FF;
+}

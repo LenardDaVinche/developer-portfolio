@@ -1,0 +1,15 @@
+C:\Users\lbaro\AppData\Local\Temporary Projects\platformGame\obj\Debug\platformGame.csprojResolveAssemblyReference.cache
+C:\Users\lbaro\AppData\Local\Temporary Projects\platformGame\obj\Debug\platformGame.Form1.resources
+C:\Users\lbaro\AppData\Local\Temporary Projects\platformGame\obj\Debug\platformGame.Properties.Resources.resources
+C:\Users\lbaro\AppData\Local\Temporary Projects\platformGame\obj\Debug\platformGame.csproj.GenerateResource.Cache
+C:\Users\lbaro\AppData\Local\Temporary Projects\platformGame\obj\Debug\platformGame.csproj.CoreCompileInputs.cache
+C:\Users\lbaro\OneDrive\Documents\Highlands College\BTEC Level 3 Extended Diploma in IT\Year 2\Programming\platformGame\platformGame\bin\Debug\platformGame.exe.config
+C:\Users\lbaro\OneDrive\Documents\Highlands College\BTEC Level 3 Extended Diploma in IT\Year 2\Programming\platformGame\platformGame\bin\Debug\platformGame.exe
+C:\Users\lbaro\OneDrive\Documents\Highlands College\BTEC Level 3 Extended Diploma in IT\Year 2\Programming\platformGame\platformGame\bin\Debug\platformGame.pdb
+C:\Users\lbaro\OneDrive\Documents\Highlands College\BTEC Level 3 Extended Diploma in IT\Year 2\Programming\platformGame\platformGame\obj\Debug\platformGame.csprojResolveAssemblyReference.cache
+C:\Users\lbaro\OneDrive\Documents\Highlands College\BTEC Level 3 Extended Diploma in IT\Year 2\Programming\platformGame\platformGame\obj\Debug\platformGame.Form1.resources
+C:\Users\lbaro\OneDrive\Documents\Highlands College\BTEC Level 3 Extended Diploma in IT\Year 2\Programming\platformGame\platformGame\obj\Debug\platformGame.Properties.Resources.resources
+C:\Users\lbaro\OneDrive\Documents\Highlands College\BTEC Level 3 Extended Diploma in IT\Year 2\Programming\platformGame\platformGame\obj\Debug\platformGame.csproj.GenerateResource.Cache
+C:\Users\lbaro\OneDrive\Documents\Highlands College\BTEC Level 3 Extended Diploma in IT\Year 2\Programming\platformGame\platformGame\obj\Debug\platformGame.csproj.CoreCompileInputs.cache
+C:\Users\lbaro\OneDrive\Documents\Highlands College\BTEC Level 3 Extended Diploma in IT\Year 2\Programming\platformGame\platformGame\obj\Debug\platformGame.exe
+C:\Users\lbaro\OneDrive\Documents\Highlands College\BTEC Level 3 Extended Diploma in IT\Year 2\Programming\platformGame\platformGame\obj\Debug\platformGame.pdb

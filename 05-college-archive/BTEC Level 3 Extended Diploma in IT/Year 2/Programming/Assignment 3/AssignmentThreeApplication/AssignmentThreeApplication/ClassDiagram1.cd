@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="AssignmentThreeApplication.AttackingWeapon">
+    <Position X="1.25" Y="1.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAAAAAAAAAAIAAAAgAAAAAAABAAAA=</HashCode>
+      <FileName>AttackingWeapon.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AssignmentThreeApplication.LongSword">
+    <Position X="1.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>LongSword.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AssignmentThreeApplication.Spear">
+    <Position X="3.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Spear.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AssignmentThreeApplication.Javelin">
+    <Position X="3.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Javelin.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AssignmentThreeApplication.Warhammer">
+    <Position X="5.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Warhammer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AssignmentThreeApplication.BowAndArrow">
+    <Position X="7.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BowAndArrow.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AssignmentThreeApplication.Dagger">
+    <Position X="1.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dagger.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AssignmentThreeApplication.BattleAxe">
+    <Position X="5.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BattleAxe.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AssignmentThreeApplication.Crossbow">
+    <Position X="7.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Crossbow.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AssignmentThreeApplication.GameData">
+    <Position X="4.75" Y="1.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

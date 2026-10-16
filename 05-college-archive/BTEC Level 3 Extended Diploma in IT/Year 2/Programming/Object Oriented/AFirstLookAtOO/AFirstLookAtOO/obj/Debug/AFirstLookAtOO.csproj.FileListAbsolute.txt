@@ -1,0 +1,10 @@
+C:\Users\lbaro\OneDrive\Documents\Highlands College\BTEC Level 3 Extended Diploma in IT\Year 2\Programming\AFirstLookAtOO\AFirstLookAtOO\bin\Debug\AFirstLookAtOO.exe.config
+C:\Users\lbaro\OneDrive\Documents\Highlands College\BTEC Level 3 Extended Diploma in IT\Year 2\Programming\AFirstLookAtOO\AFirstLookAtOO\bin\Debug\AFirstLookAtOO.exe
+C:\Users\lbaro\OneDrive\Documents\Highlands College\BTEC Level 3 Extended Diploma in IT\Year 2\Programming\AFirstLookAtOO\AFirstLookAtOO\bin\Debug\AFirstLookAtOO.pdb
+C:\Users\lbaro\OneDrive\Documents\Highlands College\BTEC Level 3 Extended Diploma in IT\Year 2\Programming\AFirstLookAtOO\AFirstLookAtOO\obj\Debug\AFirstLookAtOO.csprojResolveAssemblyReference.cache
+C:\Users\lbaro\OneDrive\Documents\Highlands College\BTEC Level 3 Extended Diploma in IT\Year 2\Programming\AFirstLookAtOO\AFirstLookAtOO\obj\Debug\AFirstLookAtOO.Form1.resources
+C:\Users\lbaro\OneDrive\Documents\Highlands College\BTEC Level 3 Extended Diploma in IT\Year 2\Programming\AFirstLookAtOO\AFirstLookAtOO\obj\Debug\AFirstLookAtOO.Properties.Resources.resources
+C:\Users\lbaro\OneDrive\Documents\Highlands College\BTEC Level 3 Extended Diploma in IT\Year 2\Programming\AFirstLookAtOO\AFirstLookAtOO\obj\Debug\AFirstLookAtOO.csproj.GenerateResource.Cache
+C:\Users\lbaro\OneDrive\Documents\Highlands College\BTEC Level 3 Extended Diploma in IT\Year 2\Programming\AFirstLookAtOO\AFirstLookAtOO\obj\Debug\AFirstLookAtOO.csproj.CoreCompileInputs.cache
+C:\Users\lbaro\OneDrive\Documents\Highlands College\BTEC Level 3 Extended Diploma in IT\Year 2\Programming\AFirstLookAtOO\AFirstLookAtOO\obj\Debug\AFirstLookAtOO.exe
+C:\Users\lbaro\OneDrive\Documents\Highlands College\BTEC Level 3 Extended Diploma in IT\Year 2\Programming\AFirstLookAtOO\AFirstLookAtOO\obj\Debug\AFirstLookAtOO.pdb

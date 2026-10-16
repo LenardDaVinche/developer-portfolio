@@ -1,0 +1,104 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>What is VR used for?</title>
+  <link rel="stylesheet" type="text/css" id="theme" href="Assignment 3 CSS.css" />
+  <!-- modernizr enables HTML5 elements and feature detects -->
+  <script type="text/javascript" src="js/modernizr-1.5.min.js"></script>
+</head>
+
+<body onload="startTime()">
+  <div id="main">
+    <header>
+      <div id="logo">
+        <div id="logo_text">
+          <!-- class="logo_colour", allows me to change the colour of the text -->
+          <h1><a href="index.html">Virtual<span class="logo_colour">Reality</span></a></h1>
+          <h2>	
+<!-- Below is the JavaScript code for the realtime clock found in the subtitle -->		  
+		  <script>
+function startTime() {
+    var today = new Date();
+    var h = today.getHours();
+    var m = today.getMinutes();
+    var s = today.getSeconds();
+    m = checkTime(m);
+    s = checkTime(s);
+    document.getElementById('txt').innerHTML =
+    h + ":" + m + ":" + s;
+    var t = setTimeout(startTime, 500);
+}
+function checkTime(i) {
+    if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+    return i;
+}
+</script>
+
+<div id="txt"></div>
+</h2>
+        </div>
+      </div>
+      <nav>
+        <div id="menu_container">
+          <ul class="sf-menu" id="nav">
+            <li><a href="HomePage.html">Home</a></li>
+            <li><a href="whatisvr.html">What is VR?</a></li>
+            <li><a href="whatisvrusedfor.html">What is VR used for?</a></li>
+            <li><a href="thedifferenttypesofvr.html">The different types of VR</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <div id="site_content">
+      <div id="sidebar_container">
+        <div class="sidebar">
+          <h3>VR Brands</h3>
+          <ul>
+            <li><a href="https://www.oculus.com/">Oculus</a></li>
+            <li><a href="https://www.vive.com/eu/">HTC VIVE</a></li>
+            <li><a href="https://www.playstation.com/en-us/explore/playstation-vr/">Playstation VR</a></li>
+            <li><a href="http://www.samsung.com/global/galaxy/gear-vr/">Samsung Gear VR</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="content">
+       <h1 style="margin: 15px 0 0 0;">What is Virtual Reality used for?</h1>
+        <p>There are numerous ways virtual reality can be used which provide enormous benefits to us. These include:
+
+Healthcare/surgery
+Military
+Architecture
+Art
+Entertainment
+Education
+Business
+The media
+Sport
+Rehabilitation/treatment of phobias</p>
+        <p>The list of applications for VR is endless. Virtual reality may have been considered an overnight sensation but it has been re-invented under the term ‘virtual environments’ and is proving to be useful
+		in ways which had never been previously considered.</p>
+        <p>Medicine is one of the biggest beneficiaries with the development of surgery simulation. This is often used as a training aid and enables the surgeon to perform an operation on a ‘virtual patient’ or to
+		see inside the human body. It is also used as a diagnostic tool in that it provides a more detail view of the human body compared to X-rays and scans.</p>
+        <p>Another popular use of virtual reality is aviation: a three dimensional aircraft can be designed which allows the designer to test their prototype without having to have several versions – which are time
+		consuming and costly.</p>
+        <p>It is cheaper and easier to make changes to the simulation rather than having to design and build a new aircraft.</p>
+        <p>Games, surgery and flight simulators are the most well known uses of virtual reality but other, lesser well known applications include:
+
+Visualisations, e.g. geographical
+Study and treatment of addictions
+Weather forecasting
+Historical, e.g. re-creating ancient civilisations
+Data analysis, e.g. financial data</p>
+      </div>
+    </div>
+    <div id="scroll">
+      <a title="Scroll to the top" class="top" href="#"></a>
+    </div>
+    <footer>
+      <p><a href="HomePage.html">Home</a> | <a href="whatisvr.html">What is VR?</a> | <a href="whatisvrusedfor.html">What is VR used for?</a> | <a href="thedifferenttypesofvr.html">The different types of VR</a></p>
+      <p>Leandro Baroca</p>
+    </footer>
+  </div>
+</body>
+</html>

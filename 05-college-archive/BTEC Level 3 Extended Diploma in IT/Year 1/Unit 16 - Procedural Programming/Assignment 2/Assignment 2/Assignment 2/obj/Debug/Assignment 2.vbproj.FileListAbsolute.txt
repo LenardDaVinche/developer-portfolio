@@ -1,0 +1,20 @@
+C:\Users\lbaro\OneDrive\Documents\Highlands College\BTEC Level 3 Extended Diploma in IT\Unit 16 - Procedural Programming\Assignment 2\Assignment 2\Assignment 2\bin\Debug\Assignment 2.exe.config
+C:\Users\lbaro\OneDrive\Documents\Highlands College\BTEC Level 3 Extended Diploma in IT\Unit 16 - Procedural Programming\Assignment 2\Assignment 2\Assignment 2\obj\Debug\Assignment 2.vbprojResolveAssemblyReference.cache
+C:\Users\lbaro\OneDrive\Documents\Highlands College\BTEC Level 3 Extended Diploma in IT\Unit 16 - Procedural Programming\Assignment 2\Assignment 2\Assignment 2\obj\Debug\ConsoleApplication1.Resources.resources
+C:\Users\lbaro\OneDrive\Documents\Highlands College\BTEC Level 3 Extended Diploma in IT\Unit 16 - Procedural Programming\Assignment 2\Assignment 2\Assignment 2\obj\Debug\Assignment 2.vbproj.GenerateResource.Cache
+C:\Users\lbaro\OneDrive\Documents\Highlands College\BTEC Level 3 Extended Diploma in IT\Unit 16 - Procedural Programming\Assignment 2\Assignment 2\Assignment 2\bin\Debug\Assignment 2.exe
+C:\Users\lbaro\OneDrive\Documents\Highlands College\BTEC Level 3 Extended Diploma in IT\Unit 16 - Procedural Programming\Assignment 2\Assignment 2\Assignment 2\bin\Debug\Assignment 2.pdb
+C:\Users\lbaro\OneDrive\Documents\Highlands College\BTEC Level 3 Extended Diploma in IT\Unit 16 - Procedural Programming\Assignment 2\Assignment 2\Assignment 2\bin\Debug\Assignment 2.xml
+C:\Users\lbaro\OneDrive\Documents\Highlands College\BTEC Level 3 Extended Diploma in IT\Unit 16 - Procedural Programming\Assignment 2\Assignment 2\Assignment 2\obj\Debug\Assignment 2.exe
+C:\Users\lbaro\OneDrive\Documents\Highlands College\BTEC Level 3 Extended Diploma in IT\Unit 16 - Procedural Programming\Assignment 2\Assignment 2\Assignment 2\obj\Debug\Assignment 2.xml
+C:\Users\lbaro\OneDrive\Documents\Highlands College\BTEC Level 3 Extended Diploma in IT\Unit 16 - Procedural Programming\Assignment 2\Assignment 2\Assignment 2\obj\Debug\Assignment 2.pdb
+C:\Users\lbaro\OneDrive\Documents\Highlands College\BTEC Level 3 Extended Diploma in IT\Year 1\Unit 16 - Procedural Programming\Assignment 2\Assignment 2\Assignment 2\bin\Debug\Assignment 2.exe.config
+C:\Users\lbaro\OneDrive\Documents\Highlands College\BTEC Level 3 Extended Diploma in IT\Year 1\Unit 16 - Procedural Programming\Assignment 2\Assignment 2\Assignment 2\bin\Debug\Assignment 2.exe
+C:\Users\lbaro\OneDrive\Documents\Highlands College\BTEC Level 3 Extended Diploma in IT\Year 1\Unit 16 - Procedural Programming\Assignment 2\Assignment 2\Assignment 2\bin\Debug\Assignment 2.pdb
+C:\Users\lbaro\OneDrive\Documents\Highlands College\BTEC Level 3 Extended Diploma in IT\Year 1\Unit 16 - Procedural Programming\Assignment 2\Assignment 2\Assignment 2\bin\Debug\Assignment 2.xml
+C:\Users\lbaro\OneDrive\Documents\Highlands College\BTEC Level 3 Extended Diploma in IT\Year 1\Unit 16 - Procedural Programming\Assignment 2\Assignment 2\Assignment 2\obj\Debug\Assignment 2.vbprojResolveAssemblyReference.cache
+C:\Users\lbaro\OneDrive\Documents\Highlands College\BTEC Level 3 Extended Diploma in IT\Year 1\Unit 16 - Procedural Programming\Assignment 2\Assignment 2\Assignment 2\obj\Debug\ConsoleApplication1.Resources.resources
+C:\Users\lbaro\OneDrive\Documents\Highlands College\BTEC Level 3 Extended Diploma in IT\Year 1\Unit 16 - Procedural Programming\Assignment 2\Assignment 2\Assignment 2\obj\Debug\Assignment 2.vbproj.GenerateResource.Cache
+C:\Users\lbaro\OneDrive\Documents\Highlands College\BTEC Level 3 Extended Diploma in IT\Year 1\Unit 16 - Procedural Programming\Assignment 2\Assignment 2\Assignment 2\obj\Debug\Assignment 2.exe
+C:\Users\lbaro\OneDrive\Documents\Highlands College\BTEC Level 3 Extended Diploma in IT\Year 1\Unit 16 - Procedural Programming\Assignment 2\Assignment 2\Assignment 2\obj\Debug\Assignment 2.xml
+C:\Users\lbaro\OneDrive\Documents\Highlands College\BTEC Level 3 Extended Diploma in IT\Year 1\Unit 16 - Procedural Programming\Assignment 2\Assignment 2\Assignment 2\obj\Debug\Assignment 2.pdb

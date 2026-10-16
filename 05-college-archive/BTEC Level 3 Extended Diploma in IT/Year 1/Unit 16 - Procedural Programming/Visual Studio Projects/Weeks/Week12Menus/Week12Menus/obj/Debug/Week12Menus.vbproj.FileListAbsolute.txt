@@ -1,0 +1,20 @@
+C:\Users\talbo\Documents\Local\HIGHLANDS\PLANNING\L3Y1\BTEC L3U16 Procedural Programming\Projects\Week12Menus\Week12Menus\bin\Debug\Week12Menus.exe.config
+C:\Users\talbo\Documents\Local\HIGHLANDS\PLANNING\L3Y1\BTEC L3U16 Procedural Programming\Projects\Week12Menus\Week12Menus\bin\Debug\Week12Menus.exe
+C:\Users\talbo\Documents\Local\HIGHLANDS\PLANNING\L3Y1\BTEC L3U16 Procedural Programming\Projects\Week12Menus\Week12Menus\bin\Debug\Week12Menus.pdb
+C:\Users\talbo\Documents\Local\HIGHLANDS\PLANNING\L3Y1\BTEC L3U16 Procedural Programming\Projects\Week12Menus\Week12Menus\bin\Debug\Week12Menus.xml
+C:\Users\talbo\Documents\Local\HIGHLANDS\PLANNING\L3Y1\BTEC L3U16 Procedural Programming\Projects\Week12Menus\Week12Menus\obj\Debug\Week12Menus.vbprojResolveAssemblyReference.cache
+C:\Users\talbo\Documents\Local\HIGHLANDS\PLANNING\L3Y1\BTEC L3U16 Procedural Programming\Projects\Week12Menus\Week12Menus\obj\Debug\Week12Menus.Resources.resources
+C:\Users\talbo\Documents\Local\HIGHLANDS\PLANNING\L3Y1\BTEC L3U16 Procedural Programming\Projects\Week12Menus\Week12Menus\obj\Debug\Week12Menus.vbproj.GenerateResource.Cache
+C:\Users\talbo\Documents\Local\HIGHLANDS\PLANNING\L3Y1\BTEC L3U16 Procedural Programming\Projects\Week12Menus\Week12Menus\obj\Debug\Week12Menus.exe
+C:\Users\talbo\Documents\Local\HIGHLANDS\PLANNING\L3Y1\BTEC L3U16 Procedural Programming\Projects\Week12Menus\Week12Menus\obj\Debug\Week12Menus.xml
+C:\Users\talbo\Documents\Local\HIGHLANDS\PLANNING\L3Y1\BTEC L3U16 Procedural Programming\Projects\Week12Menus\Week12Menus\obj\Debug\Week12Menus.pdb
+C:\Users\lbaro\OneDrive\Documents\Highlands College\BTEC Level 3 Extended Diploma in IT\Unit 16 - Procedural Programming\Visual Studio Projects\Weeks\Week12Menus\Week12Menus\bin\Debug\Week12Menus.exe.config
+C:\Users\lbaro\OneDrive\Documents\Highlands College\BTEC Level 3 Extended Diploma in IT\Unit 16 - Procedural Programming\Visual Studio Projects\Weeks\Week12Menus\Week12Menus\obj\Debug\Week12Menus.exe
+C:\Users\lbaro\OneDrive\Documents\Highlands College\BTEC Level 3 Extended Diploma in IT\Unit 16 - Procedural Programming\Visual Studio Projects\Weeks\Week12Menus\Week12Menus\obj\Debug\Week12Menus.xml
+C:\Users\lbaro\OneDrive\Documents\Highlands College\BTEC Level 3 Extended Diploma in IT\Unit 16 - Procedural Programming\Visual Studio Projects\Weeks\Week12Menus\Week12Menus\obj\Debug\Week12Menus.pdb
+C:\Users\lbaro\OneDrive\Documents\Highlands College\BTEC Level 3 Extended Diploma in IT\Unit 16 - Procedural Programming\Visual Studio Projects\Weeks\Week12Menus\Week12Menus\bin\Debug\Week12Menus.exe
+C:\Users\lbaro\OneDrive\Documents\Highlands College\BTEC Level 3 Extended Diploma in IT\Unit 16 - Procedural Programming\Visual Studio Projects\Weeks\Week12Menus\Week12Menus\bin\Debug\Week12Menus.pdb
+C:\Users\lbaro\OneDrive\Documents\Highlands College\BTEC Level 3 Extended Diploma in IT\Unit 16 - Procedural Programming\Visual Studio Projects\Weeks\Week12Menus\Week12Menus\bin\Debug\Week12Menus.xml
+C:\Users\lbaro\OneDrive\Documents\Highlands College\BTEC Level 3 Extended Diploma in IT\Unit 16 - Procedural Programming\Visual Studio Projects\Weeks\Week12Menus\Week12Menus\obj\Debug\Week12Menus.vbprojResolveAssemblyReference.cache
+C:\Users\lbaro\OneDrive\Documents\Highlands College\BTEC Level 3 Extended Diploma in IT\Unit 16 - Procedural Programming\Visual Studio Projects\Weeks\Week12Menus\Week12Menus\obj\Debug\Week12Menus.Resources.resources
+C:\Users\lbaro\OneDrive\Documents\Highlands College\BTEC Level 3 Extended Diploma in IT\Unit 16 - Procedural Programming\Visual Studio Projects\Weeks\Week12Menus\Week12Menus\obj\Debug\Week12Menus.vbproj.GenerateResource.Cache

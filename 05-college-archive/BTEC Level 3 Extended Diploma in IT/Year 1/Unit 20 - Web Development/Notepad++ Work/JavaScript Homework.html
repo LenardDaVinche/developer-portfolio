@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Javascript Homework</title>
+	<meta charset="UTF-8">
+</head>
+<body>
+
+<p id="colour" onclick="myFunction(this,'red')">Click me to change my text colour.
+</p>
+
+<script>
+function myFunction(elmt,clr) {
+	document.getElementById("colour").style.color = "red";
+}
+
+function checkFilled() {
+    var inputVal = document.getElementById("myTextbox");
+    if (inputVal.value == "") {
+        inputVal.style.backgroundColor = "red";
+    } else {document.getElementById('myTextbox').value == ""
+		alert("Field is Empty")
+		}
+}
+
+function myLoop(){ 
+    for(i=1; i<6; i++){
+        document.write("<p>" + i + "</p>");
+    }
+}
+</script>
+
+<img id="image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3jXQ0hGGr64P4XR2Nb0-BFWrDL9Jn24XJHt-oKYtR_knFLeAf" alt"Hover Effect"
+	onMouseOver="this.src='https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSBh7iwdQMDJWVFAt4XrNhNpiw__owMns5hz0Ocgy9DHihF-GXO';"
+	onMouseOut="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3jXQ0hGGr64P4XR2Nb0-BFWrDL9Jn24XJHt-oKYtR_knFLeAf"/>
+
+<br>
+
+<button type="button" 
+	onclick="document.getElementById('colour').style.color='red';
+		document.getElementById('image').src='https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSBh7iwdQMDJWVFAt4XrNhNpiw__owMns5hz0Ocgy9DHihF-GXO'">Click me to change the above</button>
+
+<br>
+
+<input type="text" id="myTextbox" >
+<input type="submit" value="OK" onclick="checkFilled();">
+
+<br>
+
+<A id="loop" href="#" onclick="myLoop()">Press this link</a>
+
+</body>
+</html>

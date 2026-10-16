@@ -1,0 +1,98 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>The different types of VR</title>
+  <link rel="stylesheet" type="text/css" id="theme" href="Assignment 3 CSS.css" />
+  <!-- modernizr enables HTML5 elements and feature detects -->
+  <script type="text/javascript" src="js/modernizr-1.5.min.js"></script>
+</head>
+
+<body onload="startTime()">
+  <div id="main">
+    <header>
+      <div id="logo">
+        <div id="logo_text">
+          <!-- class="logo_colour", allows me to change the colour of the text -->
+          <h1><a href="index.html">Virtual<span class="logo_colour">Reality</span></a></h1>
+          <h2>
+<!-- Below is the JavaScript code for the realtime clock found in the subtitle -->
+		  <script>
+function startTime() {
+    var today = new Date();
+    var h = today.getHours();
+    var m = today.getMinutes();
+    var s = today.getSeconds();
+    m = checkTime(m);
+    s = checkTime(s);
+    document.getElementById('txt').innerHTML =
+    h + ":" + m + ":" + s;
+    var t = setTimeout(startTime, 500);
+}
+function checkTime(i) {
+    if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+    return i;
+}
+</script>
+
+<div id="txt"></div>
+
+</h2>
+        </div>
+      </div>
+      <nav>
+        <div id="menu_container">
+          <ul class="sf-menu" id="nav">
+            <li><a href="HomePage.html">Home</a></li>
+            <li><a href="whatisvr.html">What is VR?</a></li>
+            <li><a href="whatisvrusedfor.html">What is VR used for?</a></li>
+            <li><a href="thedifferenttypesofvr.html">The different types of VR</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <div id="site_content">
+      <div id="sidebar_container">
+        <div class="sidebar">
+          <h3>VR Brands</h3>
+          <ul>
+            <li><a href="https://www.oculus.com/">Oculus</a></li>
+            <li><a href="https://www.vive.com/eu/">HTC VIVE</a></li>
+            <li><a href="https://www.playstation.com/en-us/explore/playstation-vr/">Playstation VR</a></li>
+            <li><a href="http://www.samsung.com/global/galaxy/gear-vr/">Samsung Gear VR</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="content">
+       <h1 style="margin: 15px 0 0 0;">The different types of VR</h1>
+        <p>The virtual reality (VR) industry has made tremendous strides in the past couple of years. Judging by the rate at which the VR industry is currently growing, and the sheer excitement a good VR experience
+		generates in the user, I am willing to bet that there will be many more like me who wish to find out more about VR in the immediate future.</p>
+        <p>I recall reading about Facebook’s Oculus acquisition back in 2014. Google open sourced the cardboard headset design shortly after Facebook’s acquisition. Thus, on the one hand, we had Google claiming you
+		could experience VR with a phone and a headset put together from a pizza box. On the other hand, we had Facebook who had just spent $2 billion on a company that had a similar product, which would release only
+		after two years.</p>
+        <p>Mobile VR HMDs: These offer rotational tracking, variable FPS (maximum of 60 FPS) and variable FOV (~90 degrees). Currently, the Google Cardboard is the most popular HMD in this category. All you need is a 
+		couple of lenses, a sheet of cardboard, a magnet, and an android phone with a gyroscope. It costs around Rs 400 to make and is a pretty respectable introduction to VR. It does a pretty good job when viewing 360
+		degree photos and videos, assuming you don’t move your head around too quickly. The only way to provide input is by swiping a magnet on the side of the headset. It is a cleverly hacked together HMD, and is great
+		for a first-time experience, but is incapable of delivering consistently high quality VR.</p>
+        <p>Premium mobile VR HMDs: These offer positional tracking, consistent 60 FPS and an FOV of 96 degrees. The “Oculus powered Samsung Gear VR” (Oculus software, Samsung hardware) headset comes under this category.
+		Presumably, so will Google’s recently announced Project Daydream series of headsets. The Gear VR is compatible only with Samsung’s flagship phones, the Galaxy S6 and above. Aside from the cost of the phone, the 
+		headset itself costs Rs 8,000. Experience wise, it trumps the cardboard. The Google Cardboard is forced to use the sensors on your phone, whereas the Gear VR headset comes with motion sensors loaded into the 
+		headset. Hence, it is able to track the movement of your head with very low latency, giving rise to a consistent FPS and a highly immersive experience. With a D-Pad on the side of the headset for input and the 
+		option to connect a controller, these HMDs support apps with much more functionality than the Google Cardboard.</p>
+        <p>Tethered HMDs: The Oculus Rift and HTC Vive offer rotational tracking, positional tracking, a 90 FPS frame rate and a 110 degree FOV. The HTC Vive also provides room scale tracking in an enclosed 4m x 4m 
+		space.</p>
+        <p>TL;DR: The more expensive HMDs offer more immersive experiences, which are more enjoyable. They are able to do this with the help of sophisticated hardware and are hence priced higher. The Google Cardboard is 
+		good for an entry level VR experience, to view 360 degree photos and surf YouTube360. The Gear VR offers a more holistic experience and helps the user interact better with VR. Finally, the HTC Vive and Oculus 
+		Rift are the HMDs that justify the hype behind VR. You HAVE to try them out, if you ever get the chance.</p>
+      </div>
+    </div>
+    <div id="scroll">
+      <a title="Scroll to the top" class="top" href="#"></a>
+    </div>
+    <footer>
+      <p><a href="HomePage.html">Home</a> | <a href="whatisvr.html">What is VR?</a> | <a href="whatisvrusedfor.html">What is VR used for?</a> | <a href="thedifferenttypesofvr.html">The different types of VR</a></p>
+      <p>Leandro Baroca</p>
+    </footer>
+  </div>
+</body>
+</html>

@@ -1,0 +1,9 @@
+p.one{background-color:yellow;       
+	position:absolute;       
+	left:10px;top:20px; 
+} 
+div{background-color:red;     
+	position:relative;     
+	left:20px;top:20px;     
+	width:300px;height:100px; 
+}

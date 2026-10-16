@@ -1,0 +1,24 @@
+<!DOCTYPE html> 
+<html> 
+<head>
+  <title>My HTML Form</title>
+  <meta charset="UTF-8">
+  <style><!--CSS goes here--></style>
+</head>
+<body>
+  <form class="myform" action="MAILTO:person@web.com" method="post" enctype="text/plain">
+		<h1>Contact Form<span>Please complete this form.</span></h1>  
+		<label><span>Your Name:</span> <input id="name" type="text" name="name" placeholder="Your Full Name"></label>  
+		<label><span>Your Email:</span> <input id="email" type="email" name="email" placeholder="Your Email Address"></label>  
+		<label><span>Message:</span> <textarea id="message" name="message" placeholder="Your Message"></textarea></label>  
+		<label><span>Subject:</span> <select name="selection">
+			<option selected>Please choose...</option>
+			<option value="">Quote</option>
+			<option value="">General Enquiry</option>
+			<option value="">Other</option>
+		</select></label> 
+	
+		<label><span>&nbsp;</span> <input type="submit" class="button"></label>
+	</form>
+</body>
+</html> 

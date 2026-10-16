@@ -1,0 +1,4 @@
+ul.one{list-style-type:circle;color:red;} 
+ul.two{list-style-type:square;color:blue;} 
+ol.three{list-style-type:lower-roman;color:green;} 
+ol.four{list-style-type:upper-alpha;color:orange;}

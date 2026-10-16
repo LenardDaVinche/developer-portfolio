@@ -1,0 +1,12 @@
+C:\Users\lbaro\AppData\Local\Temporary Projects\MyApp\bin\Debug\MyApp.exe.config
+C:\Users\lbaro\AppData\Local\Temporary Projects\MyApp\bin\Debug\MyApp.exe
+C:\Users\lbaro\AppData\Local\Temporary Projects\MyApp\bin\Debug\MyApp.pdb
+C:\Users\lbaro\AppData\Local\Temporary Projects\MyApp\obj\Debug\MyApp.csprojResolveAssemblyReference.cache
+C:\Users\lbaro\AppData\Local\Temporary Projects\MyApp\obj\Debug\MyApp.Form1.resources
+C:\Users\lbaro\AppData\Local\Temporary Projects\MyApp\obj\Debug\MyApp.Properties.Resources.resources
+C:\Users\lbaro\AppData\Local\Temporary Projects\MyApp\obj\Debug\MyApp.csproj.GenerateResource.Cache
+C:\Users\lbaro\AppData\Local\Temporary Projects\MyApp\obj\Debug\MyApp.exe
+C:\Users\lbaro\AppData\Local\Temporary Projects\MyApp\obj\Debug\MyApp.pdb
+C:\Users\lbaro\OneDrive\Documents\Highlands College\BTEC Level 3 Extended Diploma in IT\MyApp\MyApp\bin\Debug\MyApp.exe.config
+C:\Users\lbaro\OneDrive\Documents\Highlands College\BTEC Level 3 Extended Diploma in IT\MyApp\MyApp\obj\Debug\MyApp.exe
+C:\Users\lbaro\OneDrive\Documents\Highlands College\BTEC Level 3 Extended Diploma in IT\MyApp\MyApp\obj\Debug\MyApp.pdb

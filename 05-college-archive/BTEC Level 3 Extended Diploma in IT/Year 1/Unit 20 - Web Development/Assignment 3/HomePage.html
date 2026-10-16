@@ -1,0 +1,90 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>VR by Leandro Baroca</title>
+  <link rel="stylesheet" type="text/css" id="theme" href="Assignment 3 CSS.css" />
+  <!-- modernizr enables HTML5 elements and feature detects -->
+  <script type="text/javascript" src="js/modernizr-1.5.min.js"></script>
+</head>
+
+<body onload="startTime()">
+  <div id="main">
+    <header>
+      <div id="logo">
+        <div id="logo_text">
+          <!-- class="logo_colour", allows me to change the colour of the text -->
+          <h1><a href="index.html">Virtual<span class="logo_colour">Reality</span></a></h1>
+          <h2>
+<!-- Below is the JavaScript code for the realtime clock found in the subtitle -->
+		  <script>
+function startTime() {
+    var today = new Date();
+    var h = today.getHours();
+    var m = today.getMinutes();
+    var s = today.getSeconds();
+    m = checkTime(m);
+    s = checkTime(s);
+    document.getElementById('txt').innerHTML =
+    h + ":" + m + ":" + s;
+    var t = setTimeout(startTime, 500);
+}
+function checkTime(i) {
+    if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+    return i;
+}
+</script>
+
+<div id="txt"></div>
+</h2>
+        </div>
+      </div>
+      <nav>
+        <div id="menu_container">
+          <ul class="sf-menu" id="nav">
+            <li><a href="HomePage.html">Home</a></li>
+            <li><a href="whatisvr.html">What is VR?</a></li>
+            <li><a href="whatisvrusedfor.html">What is VR used for?</a></li>
+            <li><a href="thedifferenttypesofvr.html">The different types of VR</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <div id="site_content">
+      <div id="sidebar_container">
+        <div class="sidebar">
+          <h3>VR Brands</h3>
+          <ul>
+            <li><a href="https://www.oculus.com/">Oculus</a></li>
+            <li><a href="https://www.vive.com/eu/">HTC VIVE</a></li>
+            <li><a href="https://www.playstation.com/en-us/explore/playstation-vr/">Playstation VR</a></li>
+            <li><a href="http://www.samsung.com/global/galaxy/gear-vr/">Samsung Gear VR</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="content">
+       <h1 style="margin: 15px 0 0 0;">Home Page</h1>
+        <p>Hello, and welcome to my website explaining the simple details about Vitual Reality.</p>
+        <p>I made this website so I could show the different uses and functions of the Virtual Reality 
+		technology</p>
+        <img src="http://static3.businessinsider.com/image/56bbb386dd089589148b4866-480/oculus-rift.jpeg"/>
+        <p>Virtual reality is the creation of a virtual environment presented to our senses in such a way 
+		that we experience it as if we were really there. It uses a host of technologies to achieve this goal
+		and is a technically complex feat that has to account for our perception and cognition. It has both 
+		entertainment and serious uses. The technology is becoming cheaper and more widespread. We can expect 
+		to see many more innovative uses for the technology in the future and perhaps a fundamental way in 
+		which we communicate and work thanks to the possibilities of virtual reality.</p>
+      </div>
+    </div>
+    <div id="scroll">
+      <a title="Scroll to the top" class="top" href="#"></a>
+    </div>
+    <footer>
+      <p><a href="HomePage.html">Home</a> | <a href="whatisvr.html">What is VR?</a> | 
+	  <a href="whatisvrusedfor.html">What is VR used for?</a> | <a href="thedifferenttypesofvr.html">
+	  The different types of VR</a></p>
+      <p>Leandro Baroca</p>
+    </footer>
+  </div>
+</body>
+</html>

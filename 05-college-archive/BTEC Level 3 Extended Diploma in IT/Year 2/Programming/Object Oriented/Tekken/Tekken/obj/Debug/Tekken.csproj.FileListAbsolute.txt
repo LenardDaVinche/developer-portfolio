@@ -1,0 +1,10 @@
+C:\Users\talbo\Documents\Local\HIGHLANDS\PLANNING\L3Y2\CSharpProjects\Games\Tekken\Tekken\bin\Debug\Tekken.exe
+C:\Users\talbo\Documents\Local\HIGHLANDS\PLANNING\L3Y2\CSharpProjects\Games\Tekken\Tekken\bin\Debug\Tekken.pdb
+C:\Users\talbo\Documents\Local\HIGHLANDS\PLANNING\L3Y2\CSharpProjects\Games\Tekken\Tekken\obj\Debug\Tekken.Form1.resources
+C:\Users\talbo\Documents\Local\HIGHLANDS\PLANNING\L3Y2\CSharpProjects\Games\Tekken\Tekken\obj\Debug\Tekken.Properties.Resources.resources
+C:\Users\talbo\Documents\Local\HIGHLANDS\PLANNING\L3Y2\CSharpProjects\Games\Tekken\Tekken\obj\Debug\Tekken.csproj.GenerateResource.Cache
+C:\Users\talbo\Documents\Local\HIGHLANDS\PLANNING\L3Y2\CSharpProjects\Games\Tekken\Tekken\obj\Debug\Tekken.exe
+C:\Users\talbo\Documents\Local\HIGHLANDS\PLANNING\L3Y2\CSharpProjects\Games\Tekken\Tekken\obj\Debug\Tekken.pdb
+C:\Users\talbo\Documents\Local\HIGHLANDS\PLANNING\L3Y2\CSharpProjects\Games\Tekken\Tekken\obj\Debug\Tekken.csprojResolveAssemblyReference.cache
+C:\Users\lbaro\OneDrive\Documents\Highlands College\BTEC Level 3 Extended Diploma in IT\Year 2\Programming\Object Oriented\Tekken\Tekken\obj\Debug\Tekken.exe
+C:\Users\lbaro\OneDrive\Documents\Highlands College\BTEC Level 3 Extended Diploma in IT\Year 2\Programming\Object Oriented\Tekken\Tekken\obj\Debug\Tekken.pdb
