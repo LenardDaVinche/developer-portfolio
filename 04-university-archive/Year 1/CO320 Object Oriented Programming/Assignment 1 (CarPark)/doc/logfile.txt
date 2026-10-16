@@ -1,0 +1,44 @@
+Class documentation
+<---- javadoc command: ---->
+C:\Program Files (x86)\BlueJ\jdk\bin\javadoc.exe
+-author
+-version
+-nodeprecated
+-package
+-Xdoclint:none
+-noindex
+-notree
+-nohelp
+-nonavbar
+-source
+1.8
+-classpath
+C:\Program Files (x86)\BlueJ\lib\bluejcore.jar;C:\Program Files (x86)\BlueJ\lib\junit-4.11.jar;C:\Program Files (x86)\BlueJ\lib\hamcrest-core-1.3.jar;C:\Program Files (x86)\BlueJ\lib\lang-stride.jar;C:\Program Files (x86)\BlueJ\lib\userlib\pi4j-core.jar;C:\Program Files (x86)\BlueJ\lib\userlib\pi4j-device.jar;C:\Program Files (x86)\BlueJ\lib\userlib\pi4j-gpio-extension.jar;C:\Program Files (x86)\BlueJ\lib\userlib\pi4j-service.jar;C:\Users\lbaro\OneDrive\Documents\University of Kent\CO320 Object Oriented Programming\Assignment 1 (CarPark)
+-d
+C:\Users\lbaro\OneDrive\Documents\University of Kent\CO320 Object Oriented Programming\Assignment 1 (CarPark)\doc
+-encoding
+UTF-8
+-charset
+UTF-8
+C:\Users\lbaro\OneDrive\Documents\University of Kent\CO320 Object Oriented Programming\Assignment 1 (CarPark)\CarPark.java
+<---- end of javadoc command ---->
+Loading source file C:\Users\lbaro\OneDrive\Documents\University of Kent\CO320 Object Oriented Programming\Assignment 1 (CarPark)\CarPark.java...
+Constructing Javadoc information...
+Standard Doclet version 1.8.0_181
+Building tree for all the packages and classes...
+Generating C:\Users\lbaro\OneDrive\Documents\University of Kent\CO320 Object Oriented Programming\Assignment 1 (CarPark)\doc\CarPark.html...
+C:\Users\lbaro\OneDrive\Documents\University of Kent\CO320 Object Oriented Programming\Assignment 1 (CarPark)\CarPark.java:12: warning - @@author is an unknown tag.
+C:\Users\lbaro\OneDrive\Documents\University of Kent\CO320 Object Oriented Programming\Assignment 1 (CarPark)\CarPark.java:31: warning - @String is an unknown tag.
+C:\Users\lbaro\OneDrive\Documents\University of Kent\CO320 Object Oriented Programming\Assignment 1 (CarPark)\CarPark.java:31: warning - @Integer is an unknown tag.
+C:\Users\lbaro\OneDrive\Documents\University of Kent\CO320 Object Oriented Programming\Assignment 1 (CarPark)\CarPark.java:49: warning - @Return is an unknown tag -- same as a known tag except for case.
+C:\Users\lbaro\OneDrive\Documents\University of Kent\CO320 Object Oriented Programming\Assignment 1 (CarPark)\CarPark.java:41: warning - @Return is an unknown tag -- same as a known tag except for case.
+C:\Users\lbaro\OneDrive\Documents\University of Kent\CO320 Object Oriented Programming\Assignment 1 (CarPark)\CarPark.java:57: warning - @Return is an unknown tag -- same as a known tag except for case.
+Generating C:\Users\lbaro\OneDrive\Documents\University of Kent\CO320 Object Oriented Programming\Assignment 1 (CarPark)\doc\package-frame.html...
+Generating C:\Users\lbaro\OneDrive\Documents\University of Kent\CO320 Object Oriented Programming\Assignment 1 (CarPark)\doc\package-summary.html...
+Generating C:\Users\lbaro\OneDrive\Documents\University of Kent\CO320 Object Oriented Programming\Assignment 1 (CarPark)\doc\constant-values.html...
+Building index for all the packages and classes...
+Building index for all classes...
+Generating C:\Users\lbaro\OneDrive\Documents\University of Kent\CO320 Object Oriented Programming\Assignment 1 (CarPark)\doc\allclasses-frame.html...
+Generating C:\Users\lbaro\OneDrive\Documents\University of Kent\CO320 Object Oriented Programming\Assignment 1 (CarPark)\doc\allclasses-noframe.html...
+Generating C:\Users\lbaro\OneDrive\Documents\University of Kent\CO320 Object Oriented Programming\Assignment 1 (CarPark)\doc\index.html...
+6 warnings

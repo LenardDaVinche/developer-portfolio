@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_TbQ98P8IEemKXqrFY1WU-Q" name="rc550_Portfolio1">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_ToQREP8IEemKXqrFY1WU-Q">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_PbA_IP8JEemKXqrFY1WU-Q" name="Customer"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_YvzkQP8JEemKXqrFY1WU-Q" name="Premium Customer">
+    <generalization xmi:type="uml:Generalization" xmi:id="_jKHnAP8JEemKXqrFY1WU-Q" general="_PbA_IP8JEemKXqrFY1WU-Q"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_HzySkP8KEemKXqrFY1WU-Q" name="Taxi Company">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_YbhuoP8PEemKXqrFY1WU-Q" name="Browse Services"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_BPKgQP8QEemKXqrFY1WU-Q" name="Pay for services"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_7oCYUP8SEemKXqrFY1WU-Q" name="Authentication"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_BxqB8P8TEemKXqrFY1WU-Q" name="Google Authentication">
+      <generalization xmi:type="uml:Generalization" xmi:id="_IDkr8P8TEemKXqrFY1WU-Q" general="_7oCYUP8SEemKXqrFY1WU-Q"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_D838UP8TEemKXqrFY1WU-Q" name="Facebook Authentication">
+      <generalization xmi:type="uml:Generalization" xmi:id="_J4eYEP8TEemKXqrFY1WU-Q" general="_7oCYUP8SEemKXqrFY1WU-Q"/>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_5mbNQP8PEemKXqrFY1WU-Q" name="Payment Services"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_68CVUP8PEemKXqrFY1WU-Q" name="Google"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_8CMsIP8PEemKXqrFY1WU-Q" name="Facebook"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_-fBT4P8PEemKXqrFY1WU-Q" name="Sky Taxi Company"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_LRCGcP8TEemKXqrFY1WU-Q" memberEnd="_LRCGc_8TEemKXqrFY1WU-Q _LRCtgP8TEemKXqrFY1WU-Q">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_LRCGcf8TEemKXqrFY1WU-Q" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_LRCGcv8TEemKXqrFY1WU-Q" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_LRCGc_8TEemKXqrFY1WU-Q" name="google" type="_68CVUP8PEemKXqrFY1WU-Q" association="_LRCGcP8TEemKXqrFY1WU-Q"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_LRCtgP8TEemKXqrFY1WU-Q" name="google authentication" type="_BxqB8P8TEemKXqrFY1WU-Q" association="_LRCGcP8TEemKXqrFY1WU-Q"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_Mca7gP8TEemKXqrFY1WU-Q" memberEnd="_Mcbikv8TEemKXqrFY1WU-Q _Mcbik_8TEemKXqrFY1WU-Q">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_McbikP8TEemKXqrFY1WU-Q" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Mcbikf8TEemKXqrFY1WU-Q" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Mcbikv8TEemKXqrFY1WU-Q" name="facebook" type="_8CMsIP8PEemKXqrFY1WU-Q" association="_Mca7gP8TEemKXqrFY1WU-Q"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Mcbik_8TEemKXqrFY1WU-Q" name="facebook authentication" type="_D838UP8TEemKXqrFY1WU-Q" association="_Mca7gP8TEemKXqrFY1WU-Q"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_zJaJsP8TEemKXqrFY1WU-Q" memberEnd="_zJaJs_8TEemKXqrFY1WU-Q _zJaJtP8TEemKXqrFY1WU-Q">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_zJaJsf8TEemKXqrFY1WU-Q" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_zJaJsv8TEemKXqrFY1WU-Q" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_zJaJs_8TEemKXqrFY1WU-Q" name="pay for services" type="_BPKgQP8QEemKXqrFY1WU-Q" association="_zJaJsP8TEemKXqrFY1WU-Q"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_zJaJtP8TEemKXqrFY1WU-Q" name="authentication" type="_7oCYUP8SEemKXqrFY1WU-Q" association="_zJaJsP8TEemKXqrFY1WU-Q"/>
+  </packagedElement>
+</uml:Model>

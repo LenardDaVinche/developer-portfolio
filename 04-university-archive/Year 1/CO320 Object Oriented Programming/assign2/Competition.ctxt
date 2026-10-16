@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Competition
+comment0.text=\r\n\ This\ Competition\ class\ is\ used\ to\ store,\ arrange\ and\ showcase\ data\ from\ the\ Personality\ class\ for\ a\ competition\ of\ votes.\r\n\ The\ list\ can\ contain\ as\ many\ people\ as\ possible,\ but\ only\ if\ there\ aren't\ any\ duplicated\ names\ stored.\r\n\ The\ amount\ of\ votes\ per\ person\ can\ be\ increased,\ but\ not\ decreased.\r\n\ Shorter\ lists\ can\ be\ created,\ such\ as\ putting\ a\ minimum\ amount\ of\ votes\ needed\ to\ be\ in\ said\ list\ \r\n\ or\ the\ objects\ with\ the\ most\ votes\ (Amount\ determined\ by\ user).\r\n\ The\ information\ about\ the\ list\ can\ be\ printed\ out\ to\ the\ user\ at\ any\ time.\r\n\ Error\ messages\ will\ appear\ when\ inavlid\ inputs\ are\ created\ by\ the\ user.\r\n\ \r\n\ @author\ (Leandro\ J.\ Gomes\ Baroca)\ \r\n\ @version\ (21/11/2018)\r\n
+comment1.params=
+comment1.target=Competition()
+comment1.text=\r\n\ Create\ a\ "personList"\ ArrayList\ to\ list\ the\ objects\ from\ the\ Personality\ class.\r\n
+comment2.params=person
+comment2.target=void\ addPersonality(Personality)
+comment2.text=\r\n\ @param\ "person"\ variable\ to\ Personality\ class\ to\ store\ the\ objects\ found\ within\ the\ Personality\ class.\r\n\ Give\ "personList"\ ArrayList\ the\ ability\ to\ add\ objects\ from\ Personality\ class,\ via\ parameter\ variable.\r\n
+comment3.params=
+comment3.target=int\ getSize()
+comment3.text=\r\n\ @return\ Returns\ the\ size\ of\ the\ ArrayList\ containing\ the\ objects\ of\ the\ Personality\ class.\r\n
+comment4.params=
+comment4.target=void\ list()
+comment4.text=\r\n\ Create\ a\ for\ loop\ with\ "Perosnality"\ class\ assigned\ "print"\ temporary\ variable,\ which\ incrimets\ objects\ from\ the\ "personList".\r\n\ Print\ a\ line\ containing\ the\ contents\ of\ the\ "personList"\ ArrayList\ via\ ".getDetails()".\r\n
+comment5.params=name
+comment5.target=void\ voteFor(java.lang.String)
+comment5.text=\r\n\ @param\ "name"\ String\ to\ store\ the\ name\ user\ inputs\ through\ the\ method.\r\n\ New\ Iterator\ list\ from\ the\ "Personality"\ class\ named\ "voteList",\ which\ contains\ the\ "personList"\ (ArrayList)\ with\ the\ original\ objects.\r\n\ While\ loop\ where\ the\ it\ returns\ true\ if\ the\ method\ returns\ a\ boolean\ data\ type\ (true),\ serving\ as\ a\ flag\ if\ there\ are\ objects\ to\ iterate\ over.\r\n\ Assign\ the\ Personality\ class\ as\ "votes",\ which\ is\ then\ assigned\ to\ the\ "voteList".\r\n\ If\ the\ name\ of\ voteList\ equals\ the\ name\ of\ the\ Personality\ class\ objects,\ increase\ the\ votes\ on\ Personality\ class\ objects\ by\ 1.\r\n\ @return\ Return\ true\ to\ cancel\ out\ the\ "voteFor"\ method.\r\n\ When\ the\ method\ doesn't\ return\ true\ on\ the\ while\ loop,\ an\ error\ message\ will\ be\ printed\ out.\r\n
+comment6.params=minimumVotes
+comment6.target=void\ shortlist(int)
+comment6.text=\r\n\ @param\ "minimumVotes"\ integer\ to\ store\ a\ numerical\ (user\ input)\ value\ to\ carry\ out\ the\ rest\ of\ the\ method.\r\n\ New\ Iterator\ list\ from\ the\ "Personality"\ class\ named\ "list",\ which\ contains\ the\ "personList"\ (ArrayList)\ with\ the\ original\ objects.\r\n\ While\ loop\ where\ the\ it\ uses\ a\ ".hadNext"\ serving\ as\ a\ flag\ if\ there\ are\ objects\ to\ iterate\ over\ on\ the\ "list"\ Iterator.\r\n\ If\ the\ next\ vote\ (from\ "getVotes()")\ within\ the\ Personality\ list\ is\ below\ the\ minimumVotes,\ remove\ the\ list.\ \r\n
+comment7.params=index
+comment7.target=java.util.ArrayList\ getMost(int)
+comment7.text=\r\n\ @param\ "index"\ integer\ variable\ to\ store\ (user\ input)\ value\ that\ will\ be\ used\ to\ choose\ the\ top\ select\ few\ of\ the\ Personality\ object\ list.\r\n\ Create\ new\ clone\ list\ of\ the\ "personList"\ ArrayList\ under\ the\ name\ of\ "newList".\r\n\ Sort\ the\ new\ list\ with\ a\ comparitor\ by\ the\ amount\ of\ votes\ (getVotes())\ in\ reverse\ order.\r\n\ If\ index\ is\ equal\ to\ zero,\ clear\ the\ list.\r\n\ return\ Returns\ The\ empty\ list.\r\n\ Else\ if\ the\ index\ is\ greater\ than\ or\ equal\ to\ the\ number\ of\ personalities,\ all\ personalities\ in\ the\ list\ are\ returned.\r\n\ return\ Returns\ the\ full\ list.\r\n\ While\ loop\ created\ when\ index\ is\ smaller\ than\ the\ size\ of\ the\ new\ list\ (newList)\ and\ index\ is\ not\ 0.\r\n\ If\ the\ newlist\ index\ and\ amount\ of\ votes\ is\ not\ equal\ to\ one\ vote\ below\ index,\ remove\ index.\r\n\ Else\ add\ index\ by\ 1.\r\n\ @return\ The\ newly\ created\ list\ containing\ the\ top\ selected\ objects\ depending\ on\ the\ index.\r\n
+numComments=8

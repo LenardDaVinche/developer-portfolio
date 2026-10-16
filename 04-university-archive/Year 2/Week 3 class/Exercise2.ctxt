@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Exercise2
+comment1.params=
+comment1.target=Exercise2()
+comment2.params=array1\ array2
+comment2.target=int[][]\ sum(int[][],\ int[][])
+comment3.params=array
+comment3.target=void\ printAll(int[][])
+numComments=4

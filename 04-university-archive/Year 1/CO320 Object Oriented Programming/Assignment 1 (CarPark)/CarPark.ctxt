@@ -1,0 +1,28 @@
+#BlueJ class context
+comment0.target=CarPark
+comment0.text=\r\n\ This\ CarPark\ class\ is\ used\ to\ showcase\ the\ location,\ capacity,\ current\ occupation\ and\ the\ availalbe\ spaces\ left\ on\ the\ carpark.\r\n\ Cars\ will\ be\ able\ to\ park\ and\ leave\ the\ car\ park,\ but\ only\ if\ there\ is\ sufficent\ capacity.\r\n\ The\ capacity\ of\ the\ carpark\ can\ be\ both\ increased\ or\ decreased,\ but\ only\ if\ the\ capacity\ isnt\ below\ 0\ or\ the\ current\ occupancy.\r\n\ Any\ errors\ with\ the\ management,\ such\ as\ lack\ of\ available\ spaces\ or\ capacity\ will\ be\ warned\ to\ the\ user.\r\n\ The\ information\ about\ available\ spaces\ can\ be\ printed\ out\ to\ the\ user\ at\ any\ time.\r\n\ \r\n\ @@author\ (Leandro\ Baroca)\r\n\ @version\ (19/10/2018)\r\n
+comment1.params=parkLocation\ parkCapacity
+comment1.target=CarPark(java.lang.String,\ int)
+comment1.text=\r\n\ @String\ parameter\ to\ store\ different\ instances\ to\ location\ String.\r\n\ @Integer\ parameter\ to\ store\ different\ instances\ of\ capacity\ integer.\r\n\ Create\ a\ car\ park\ which\ gives\ the\ location.\r\n\ Create\ an\ integer\ to\ store\ the\ capacity\ of\ the\ car\ park.\r\n\ Occupancy\ is\ always\ set\ to\ zero\ uppon\ creating\ an\ instance.\r\n
+comment2.params=
+comment2.target=java.lang.String\ getLocation()
+comment2.text=\r\n\ @Return\ the\ location\ of\ the\ car\ park.\r\n
+comment3.params=
+comment3.target=int\ getCapacity()
+comment3.text=\r\n\ @Return\ the\ capacity\ of\ the\ car\ park.\r\n
+comment4.params=
+comment4.target=int\ getOccupancy()
+comment4.text=\r\n\ @Return\ the\ occupancy\ of\ the\ car\ park.\r\n
+comment5.params=
+comment5.target=void\ park()
+comment5.text=\r\n\ If\ the\ capacity\ is\ the\ same\ or\ more\ than\ the\ occupation,\ give\ error\ message\ that\ car\ park\ is\ full.\r\n\ Else\ the\ capacity\ is\ greater\ than\ the\ occupancy,\ add\ 1(a\ new\ car\ enters\ the\ car\ park\ to\ occupy\ a\ space).\r\n
+comment6.params=
+comment6.target=void\ leave()
+comment6.text=\r\n\ If\ a\ user\ leaves\ the\ car\ park,\ reduce\ occupancy\ variable\ by\ 1\ if\ it\ is\ above\ 0.\ Decreasing\ the\ occupation,\ therefore\ increasing\ capacity.\r\n\ Else\ print\ an\ error\ message\ when\ the\ car\ park\ is\ empty\ (there\ is\ no\ occupation),\ saying\ that\ the\ occupancy\ cannot\ be\ reduced.\r\n
+comment7.params=newCapacity
+comment7.target=void\ changeCapacity(int)
+comment7.text=\r\n\ Create\ new\ capacity\ variable\ which\ contains\ the\ added\ variable\ (newCapacity)\ with\ the\ original\ capacity.\r\n\ This\ allows\ user\ to\ change\ the\ capacity\ of\ the\ car\ park,\ by\ adding\ current\ value\ with\ new\ value\ (from\ parameter).\r\n\ If\ occupancy\ is\ above\ 0\ and\ the\ capacity\ is\ lower\ than\ the\ occupancy,\ remove\ added\ value\ from\ "newCapacity"\ variable\ from\ "capacity"\ variable.\r\n\ Print\ out\ error\ message\ indicating\ that\ capacity\ cannot\ be\ lower\ than\ occupancy\ and\ that\ the\ original\ number\ is\ restored.\r\n\ If\ the\ capacity\ is\ below\ zero,\ set\ capacity\ to\ 0.\ So\ there\ isn't\ negative\ capacity.\r\n\ Print\ out\ error\ message\ indicating\ user\ that\ the\ car\ park\ is\ closed.\r\n
+comment8.params=
+comment8.target=void\ printDetails()
+comment8.text=\r\n\ Create\ new\ capacity\ variable\ to\ store\ the\ available\ spaces\ left\ on\ the\ car\ park.\r\n\ Current\ capacity\ (capacity\ variable)\ minus\ the\ spaces\ occupied\ (occupancy\ variable).\r\n\ If\ the\ capacity\ is\ equal\ to\ 1,\ print\ out\ "(location)\ car\ park\ has\ (capacity\ \=\ 1)\ space".\r\n\ Else\ print\ out\ "(location)\ car\ park\ has\ (capacity\ greater\ than\ 1,\ or\ 0)\ spaces".\r\n
+numComments=9

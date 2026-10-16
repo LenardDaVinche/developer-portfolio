@@ -1,0 +1,92 @@
+
+import java.lang.Math;
+import java.util.*;
+import java.io.PrintWriter;
+
+class Markov {
+
+    public static void checkIn(String name, String login, double[] sol1, boolean[] sol2)
+
+    {
+
+        System.out.println("****************************************************** ");
+        System.out.println(" ");
+        System.out.println(" ");
+        System.out.println("NAME: " + name + "  " + login);
+
+        // ###########
+        // Write feedback sheet
+        // ##################
+
+        try {
+            PrintWriter writer = new PrintWriter("/home/cur/dfc/feedback" + ".mark", "UTF-8");
+            String domi = new String("Dominique Chu");
+
+            if (name.equals(domi)) {
+                name = "replacemexxx";
+            }
+
+            writer.println("************************************");
+            writer.println("************************************");
+            writer.println("Feedback for CO528 Assessment 1: Genetic Algorithms for " + name + " (" + login + ")");
+            writer.println("************************************");
+            writer.println("************************************");
+
+        } catch (Exception e) {
+            System.out.println(e);
+        }
+    }
+
+    // ##################################
+
+    public static double getTransProb(int i, int j, int k) {
+
+        double prob = 1.0 / k; //Get selected state probability
+
+        if (i != j) {
+            double accept = Math.min(1, prob / prob); //determine acceptance probability
+            double transProb = accept * (1.0 / 4); //determine transition probability
+            return transProb; //return transition probability
+        } else {
+            double trans = 1.0 - (1.0 / 4) * 4; //determine self transition 
+            return trans; //return self transition 
+        }
+
+    }
+
+    // ##################################
+
+    public static double getSejProb(int s1, int s2, int numStates, double TS) {
+
+        return TS;
+        
+    }
+
+    // ##################################
+    public static double getBiasTransProb(int s1, int s2, double[] ssprob) {
+
+        return 0.1;
+
+    }
+
+    // ##################################
+
+    public static double getContTransProb(int s1, int s2, double[] rates) {
+
+        double g = 0.4;
+
+        System.out.println(rates[1]);
+
+        return g;
+
+    }
+
+    public static double getContSejProb(int s1, int s2, double[] rates, double TSC) {
+
+        System.out.println(rates[2]);
+        double g = 0.2;
+
+        return g;
+    }
+
+}// end class

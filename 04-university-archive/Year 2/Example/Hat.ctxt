@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Hat
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Hat\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=h
+comment1.target=Hat(java.lang.String)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Hat\r\n
+comment2.params=
+comment2.target=java.lang.String\ getHat()
+comment2.text=\r\n\ return\ the\ hat\ value\r\n\r\n\ @return\ \ the\ value\ of\ hat\ variable.\r\n
+comment3.params=hatType
+comment3.target=void\ setHat(java.lang.String)
+comment3.text=\r\n\ Mutate\ the\ hat\ variable\ \r\n\r\n\ @param\ \ new\ hatType\ string\ \r\n\ Set\ "hatType"\ to\ change\ the\ new\ String\ value\ of\ hat\ \r\n
+numComments=4

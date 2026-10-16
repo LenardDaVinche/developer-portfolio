@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Medic
+comment0.text=\r\n\ A\ class\ storing\ details\ of\ a\ medic.\ \r\n\ (Superclass\ of\ Nurse\ and\ Doctor;\ Subclass\ of\ Person)\r\n\ \r\n\ @author\ Leandro\ J\ Gomes\ Baroca\r\n\ @version\ 2019.01.13\r\n
+comment1.params=nameInput\ titleInput
+comment1.target=Medic(java.lang.String,\ java.lang.String)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Medic\r\n\ @param\ name\ The\ medic's\ name.\r\n\ @param\ The\ title\ of\ the\ medic.\r\n
+comment2.params=
+comment2.target=java.lang.String\ toString()
+comment2.text=\r\n\ Return\ a\ string\ in\ the\ form\ "Title\ Name\ (ID)"\r\n\ if\ a\ title\ is\ present,\ or\ "Name\ (ID)"\ if\ there\ is\ no\ title.\r\n\ @return\ A\ string\ containing\ the\ medic's\ title\ (optional)\ and\ name.\r\n
+numComments=3

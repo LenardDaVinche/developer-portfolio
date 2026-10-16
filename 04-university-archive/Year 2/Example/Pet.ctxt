@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Pet
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Pet\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=nm
+comment1.target=Pet(java.lang.String)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Pet\r\n
+comment2.params=
+comment2.target=java.lang.String\ getName()
+comment2.text=\r\n\ Returns\ the\ "name"\ variable\ once\ declared\r\n\r\n\ @return\ \ The\ "name"\ String\ field\r\n
+comment3.params=nme
+comment3.target=void\ setName(java.lang.String)
+comment3.text=\r\n\ Mutate\ the\ name\ of\ Pet\r\n\r\n\ @param\ \ \ Create\ new\ parameter\ String\ called\ "nme"\r\n\ @return\ \ Set\ "nme"\ string\ to\ return\ the\ value\ "name"\ field\r\n
+numComments=4

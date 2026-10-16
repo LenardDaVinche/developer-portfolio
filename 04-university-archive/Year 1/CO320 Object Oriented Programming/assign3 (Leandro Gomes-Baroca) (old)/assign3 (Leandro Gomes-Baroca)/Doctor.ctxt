@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Doctor
+comment0.text=\r\n\ A\ class\ storing\ details\ of\ a\ doctor.\r\n\ (Subclass\ of\ Medic)\r\n\ \r\n\ @author\ Leandro\ J\ Gomes\ Baroca\r\n\ @version\ 2019.01.13\r\n
+comment1.params=name\ title
+comment1.target=Doctor(java.lang.String,\ java.lang.String)
+comment1.text=\r\n\ Set\ the\ doctor's\ name\ and\ title.\r\n\ @param\ name\ The\ doctor's\ name.\r\n\ @param\ The\ title\ of\ the\ doctor.\r\n
+numComments=2

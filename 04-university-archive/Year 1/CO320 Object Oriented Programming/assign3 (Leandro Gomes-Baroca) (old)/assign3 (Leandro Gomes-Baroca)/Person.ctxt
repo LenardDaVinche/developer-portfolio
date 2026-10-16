@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Person
+comment0.text=\r\n\ A\ superclass\ storing\ details\ of\ a\ person.\r\n\ (Superclass\ of\ Medic\ and\ Patient)\r\n\ \r\n\ @author\ Leandro\ J\ Gomes\ Baroca\r\n\ @version\ 2019.01.13\r\n
+comment1.params=perName\ perTitle
+comment1.target=Person(java.lang.String,\ java.lang.String)
+comment1.text=\r\n\ Return\ the\ person's\ name.\r\n\ @param\ The\ name\ of\ this\ person.\r\n\ @param\ The\ title\ of\ this\ person.\r\n
+comment2.params=
+comment2.target=java.lang.String\ getName()
+comment2.text=\r\n\ Return\ the\ full\ name\ of\ this\ person.\r\n\ @return\ The\ full\ name\ of\ this\ person.\r\n
+comment3.params=
+comment3.target=java.lang.String\ getTitle()
+comment3.text=\r\n\ Return\ the\ person's\ title.\r\n\ @return\ The\ title\ of\ this\ person.\r\n
+comment4.params=newTitle
+comment4.target=void\ changeTitle(java.lang.String)
+comment4.text=\r\n\ Return\ the\ person's\ new\ title.\r\n\ @param\ newTitle\ The\ new\ title\ of\ this\ person.\r\n
+numComments=5
