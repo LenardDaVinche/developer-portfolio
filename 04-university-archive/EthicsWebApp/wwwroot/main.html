@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Testing your ethics</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 20px auto;
+      background-color: #fff;
+      padding: 20px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      border-radius: 5px;
+    }
+
+    #instructions {
+      margin-bottom: 20px;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+      background-color: #3498db;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+
+    .quiz-question {
+      display: none;
+    }
+
+    .choices button {
+      display: inline-block;
+      margin: 10px 10px 10px 0;
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+      background-color: #3498db;
+      color: #fff;
+      text-decoration: none;
+      border: none;
+      border-radius: 5px;
+    }
+
+    .choices button.selected {
+      background-color: #ccc; /* Grey background for selected option */
+    }
+
+    #results {
+      display: none;
+    }
+
+    #result-text {
+      font-size: 18px;
+      font-weight: bold;
+      margin-top: 20px;
+    }
+
+    .back-button {
+      display: inline-block;
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+      background-color: #e74c3c;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+      margin-top: 10px;
+    }
+
+    .image {
+      width: 200px;
+      height: 200px;
+      background-size: cover;
+      background-repeat: no-repeat;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container" id="welcome-page">
+  <h1>Let's test your ethics!</h1>
+  <p id="instructions">Each choice has a different outcome. Click on each choice to see which one you'd like to choose.</p>
+  <a href="#" class="button" onclick="startQuiz()">Got it</a>
+</div>
+
+<div class="container quiz-question" id="question1">
+  <h2>Question 1</h2>
+  <p>The Trolley Problem presents a scenario where a person must choose between allowing a trolley to continue on a track, where it will kill five people, or diverting it onto another track, where it will kill one person. You must decide whether to sacrifice one life to save three, or do nothing and allow one person to die instead.</p>
+  <img src="Senarios/trolley.png">
+  <p>Choose an option:</p>
+  <div class="choices">
+    <button id="option-1" onclick="selectOption(1)">Dont do anything</button>
+    <button id="option-2" onclick="selectOption(2)">Pull lever</button>
+    <button id="option-3" onclick="selectOption(3)">Option 3</button>
+  </div>
+  <div class="image" id="question1-image"></div>
+  <button class="button" onclick="goBackToPreviousQuestion()">Previous Question</button>
+  <button class="button" onclick="nextQuestion('question2')">Next</button>
+</div>
+
+<div class="container quiz-question" id="question2">
+  <h2>Question 2</h2>
+  <p>Choose an option:</p>
+  <div class="choices">
+    <button id="option-4" onclick="selectOption(4)">Option 1</button>
+    <button id="option-5" onclick="selectOption(5)">Option 2</button>
+    <button id="option-6" onclick="selectOption(6)">Option 3</button>
+  </div>
+  <div class="image" id="question2-image"></div>
+  <button class="button" onclick="goBackToPreviousQuestion()">Previous Question</button>
+  <button class="button" onclick="nextQuestion('question3')">Next</button>
+</div>
+
+<div class="container quiz-question" id="question3">
+  <h2>Question 3</h2>
+  <div class="image" id="question3-image"></div>
+  <p>Choose an option:</p>
+  <div class="choices">
+    <button id="option-7" onclick="selectOption(7)">Option 1</button>
+    <button id="option-8" onclick="selectOption(8)">Option 2</button>
+    <button id="option-9" onclick="selectOption(9)">Option 3</button>
+  </div>
+  <div class="image" id="question3-image"></div>
+  <button class="button" onclick="goBackToPreviousQuestion()">Previous Question</button>
+  <button class="button" onclick="nextQuestion('question4')">Next</button>
+</div>
+
+<div class="container quiz-question" id="question4">
+  <h2>Question 4</h2>
+  <p>Choose an option:</p>
+  <div class="choices">
+    <button id="option-10" onclick="selectOption(10)">Option 1</button>
+    <button id="option-11" onclick="selectOption(11)">Option 2</button>
+    <button id="option-12" onclick="selectOption(12)">Option 3</button>
+  </div>
+  <div class="image" id="question4-image"></div>
+  <button class="button" onclick="goBackToPreviousQuestion()">Previous Question</button>
+  <button class="button" onclick="nextQuestion('question5')">Next</button>
+</div>
+
+<div class="container quiz-question" id="question5">
+  <h2>Question 5</h2>
+  <p>Choose an option:</p>
+  <div class="choices">
+    <button id="option-13" onclick="selectOption(13)">Option 1</button>
+    <button id="option-14" onclick="selectOption(14)">Option 2</button>
+    <button id="option-15" onclick="selectOption(15)">Option 3</button>
+  </div>
+  <div class="image" id="question5-image"></div>
+  <button class="button" onclick="goBackToPreviousQuestion()">Previous Question</button>
+  <button class="button" onclick="nextQuestion('question6')">Next</button>
+</div>
+
+<div class="container quiz-question" id="question6">
+  <h2>Question 6</h2>
+  <p>Choose an option:</p>
+  <div class="choices">
+    <button id="option-16" onclick="selectOption(16)">Option 1</button>
+    <button id="option-17" onclick="selectOption(17)">Option 2</button>
+    <button id="option-18" onclick="selectOption(18)">Option 3</button>
+  </div>
+  <div class="image" id="question6-image"></div>
+  <button class="button" onclick="goBackToPreviousQuestion()">Previous Question</button>
+  <button class="button" onclick="nextQuestion('question7')">Next</button>
+</div>
+
+<div class="container quiz-question" id="question7">
+  <h2>Question 7</h2>
+  <p>Choose an option:</p>
+  <div class="choices">
+    <button id="option-19" onclick="selectOption(19)">Option 1</button>
+    <button id="option-20" onclick="selectOption(20)">Option 2</button>
+    <button id="option-21" onclick="selectOption(21)">Option 3</button>
+  </div>
+  <div class="image" id="question7-image"></div>
+  <button class="button" onclick="goBackToPreviousQuestion()">Previous Question</button>
+  <button class="button" onclick="nextQuestion('question8')">Next</button>
+</div>
+
+<div class="container quiz-question" id="question8">
+  <h2>Question 8</h2>
+  <p>Choose an option:</p>
+  <div class="choices">
+    <button id="option-22" onclick="selectOption(22)">Option 1</button>
+    <button id="option-23" onclick="selectOption(23)">Option 2</button>
+    <button id="option-24" onclick="selectOption(24)">Option 3</button>
+  </div>
+  <div class="image" id="question8-image"></div>
+  <button class="button" onclick="goBackToPreviousQuestion()">Previous Question</button>
+  <button class="button" onclick="nextQuestion('results')">Results</button>
+</div>
+
+<div class="container" id="results">
+  <h1>Quiz Results</h1>
+  <p id="result-text"></p>
+  <a href="#" class="back-button" onclick="goBack()">Back to Quiz</a>
+</div>
+
+<script>
+  let currentQuestion = 1;
+  let selectedOption = null;
+  let answers = {1: [], 2: [], 3: [], 4: [], 5: [], 6: [], 7: [], 8: []};
+
+  function startQuiz() {
+    document.getElementById('welcome-page').style.display = 'none';
+    showQuestion('question1');
+  }
+
+  function showQuestion(questionId) {
+    document.querySelectorAll('.quiz-question').forEach(question => {
+      question.style.display = 'none';
+    });
+    document.getElementById(questionId).style.display = 'block';
+  }
+
+  function goBackToPreviousQuestion() {
+    if (currentQuestion > 1) {
+      currentQuestion--;
+      let previousQuestionId = 'question' + currentQuestion;
+      showQuestion(previousQuestionId);
+    }
+  }
+
+  function selectOption(option) {
+    // Remove previously selected option background color
+    let previousSelectedOption = document.querySelector('.choices button.selected');
+    if (previousSelectedOption) {
+      previousSelectedOption.classList.remove('selected');
+    }
+
+    selectedOption = option;
+    updateImage(currentQuestion, option);
+
+    // Add background color to the selected option button
+    let selectedButton = document.getElementById('option-' + option);
+    selectedButton.classList.add('selected');
+  }
+
+
+  function updateImage(questionNumber, option) {
+  let imageContainer = document.getElementById('question' + questionNumber + '-image');
+  if (option === 1) {
+    imageContainer.style.backgroundImage = "url('/Users/morssalahmadi/Downloads/hihi.jpeg')";
+  } else if (option === 2) {
+    imageContainer.style.backgroundImage = "url('/Users/morssalahmadi/Downloads/haha.jpeg')";
+  } else if (option === 3) {
+    imageContainer.style.backgroundImage = "url('path/to/image3.jpg')";
+  } else if (option === 4) {
+    imageContainer.style.backgroundImage = "url('path/to/image2.jpg')";
+  } else if (option === 5) {
+    imageContainer.style.backgroundImage = "url('path/to/image3.jpg')";
+  } else if (option === 6) {
+    imageContainer.style.backgroundImage = "url('path/to/image2.jpg')";
+  } else if (option === 7) {
+    imageContainer.style.backgroundImage = "url('path/to/image3.jpg')";
+  } else if (option === 8) {
+    imageContainer.style.backgroundImage = "url('path/to/image2.jpg')";
+  } else if (option === 9) {
+    imageContainer.style.backgroundImage = "url('path/to/image3.jpg')";
+  } else if (option === 10) {
+    imageContainer.style.backgroundImage = "url('path/to/image2.jpg')";
+  } else if (option === 11) {
+    imageContainer.style.backgroundImage = "url('path/to/image3.jpg')";
+  } else if (option === 12) {
+    imageContainer.style.backgroundImage = "url('path/to/image3.jpg')";
+  } else if (option === 13) {
+    imageContainer.style.backgroundImage = "url('path/to/image2.jpg')";
+  } else if (option === 14) {
+    imageContainer.style.backgroundImage = "url('path/to/image3.jpg')";
+  } else if (option === 15) {
+    imageContainer.style.backgroundImage = "url('path/to/image2.jpg')";
+  } else if (option === 16) {
+    imageContainer.style.backgroundImage = "url('path/to/image3.jpg')";
+  } else if (option === 17) {
+    imageContainer.style.backgroundImage = "url('path/to/image2.jpg')";
+  } else if (option === 18) {
+    imageContainer.style.backgroundImage = "url('path/to/image3.jpg')";
+  } else if (option === 19) {
+    imageContainer.style.backgroundImage = "url('path/to/image3.jpg')";
+  } else if (option === 20) {
+    imageContainer.style.backgroundImage = "url('path/to/image2.jpg')";
+  } else if (option === 21) {
+    imageContainer.style.backgroundImage = "url('path/to/image3.jpg')";
+  } else if (option === 22) {
+    imageContainer.style.backgroundImage = "url('path/to/image2.jpg')";
+  } else if (option === 23) {
+    imageContainer.style.backgroundImage = "url('path/to/image3.jpg')";
+  } else if (option === 24) {
+    imageContainer.style.backgroundImage = "url('path/to/image2.jpg')";
+  }
+}
+
+
+  function nextQuestion(nextQuestionId) {
+    console.log("Next button clicked");
+    console.log("Current question:", currentQuestion);
+    console.log("Next question ID:", nextQuestionId);
+    if (selectedOption !== null) {
+        answers[currentQuestion].push(selectedOption); // Push selected option to answers array
+        currentQuestion++; // Increment currentQuestion
+        showQuestion(nextQuestionId); // Show the next question
+    } else {
+        alert("Please select an option before proceeding.");
+    }
+  }
+
+  function showResults() {
+    document.getElementById('results').style.display = 'block';
+    let resultText = '';
+    if (answers[1].length > answers[2].length && answers[1].length > answers[3].length) {
+      resultText = "Your ethical philosophy is Utilitarian.";
+    } else if (answers[2].length > answers[1].length && answers[2].length > answers[3].length) {
+      resultText = "Your ethical philosophy is Deontological.";
+    } else {
+      resultText = "Your ethical philosophy is Virtue.";
+    }
+    document.getElementById('result-text').innerText = resultText;
+  }
+
+  function goBack() {
+    document.getElementById('results').style.display = 'none';
+    currentQuestion = 1;
+    selectedOption = null;
+    answers = {1: [], 2: [], 3: [], 4: [], 5: [], 6: [], 7: [], 8: [], 9: [], 10: [], 11: [], 12: [],13: [], 14: [], 15: [], 16: [], 17: [], 18: [], 19: [], 20: [], 21: [], 22: [], 23: [], 24: []};
+    showQuestion('question1');
+  }
+</script>
+
+</body>
+</html>
+

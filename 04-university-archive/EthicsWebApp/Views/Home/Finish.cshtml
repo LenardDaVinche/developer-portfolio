@@ -1,0 +1,32 @@
+﻿@using Microsoft.AspNetCore.Http
+@inject IHttpContextAccessor Accessor
+@{
+    ViewData["Title"] = "Finish";
+    string SelectedCountry = @Accessor.HttpContext.Session.GetString("SelectedCountry");
+    string StartDate = @Accessor.HttpContext.Session.GetString("StartDate");
+    DateTime FinishDate = DateTime.Now; // Get time as page has loaded
+
+    DateTime StartDateDT = DateTime.Parse(StartDate); // Parse StartDate string to DateTime
+
+    // Convert StartDate and FinishDate to seconds
+    long startDateSeconds = ((DateTimeOffset)StartDateDT).ToUnixTimeSeconds();
+    long finishDateSeconds = ((DateTimeOffset)FinishDate).ToUnixTimeSeconds();
+
+    // Calculate elapsed time in seconds
+    long elapsedTimeSeconds = finishDateSeconds - startDateSeconds;
+}
+
+
+<div class="text-center">
+    <h1 class="display-5">You have completed the Ethics Generator!</h1>
+    <p>Your results are below:</p>
+</div>
+
+<form action="@Url.Action("SubmitAndFinish", "")" method="post">
+    <p>Your region: @SelectedCountry</p>
+    <p>Time started: @StartDate</p>
+    <p>Time completed: @FinishDate</p>
+    <p>Time taken: @elapsedTimeSeconds seconds</p>
+    <p>Ethical area: @ViewBag.dominantFramework</p>
+    <input type="submit" value="Submit Results" />
+</form>

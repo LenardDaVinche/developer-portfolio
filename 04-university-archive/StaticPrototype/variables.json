@@ -1,0 +1,44 @@
+[
+    {
+        "Name": "Old man",
+        "Image": null,
+        "Description": "an Old man",
+        "Chosen Addition": null,
+        "Additions": []
+    },
+    {
+        "Name": "Old lady",
+        "Image": null,
+        "Description": "an Old lady",
+        "Chosen Addition": null,
+        "Additions": []
+    },
+    {
+        "Name": "Baby",
+        "Image": null,
+        "Description": "a Baby",
+        "Chosen Addition": null,
+        "Additions": [] 
+    },
+    {
+        "Name": "Teenager",
+        "Image": null,
+        "Description": "a Teenager",
+        "Chosen Addition": null,
+        "Additions": [] 
+    },
+    {
+        "Name": "Young Child",
+        "Image": null,
+        "Description": "a Young Child",
+        "Chosen Addition": null,
+        "Additions": []
+    },
+    {
+        "Name": "Adult",
+        "Image": null,
+        "Description": "an Adult",
+        "Chosen Addition": null,
+        "Additions": []
+    }
+]

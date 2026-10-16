@@ -1,0 +1,15 @@
+{
+    "Name": "<Name of Choice>" ,
+    "Image": "<Link to Image>" ,
+    "Description": "",
+    "Chosen Addition": null,
+    "Additions": [
+        {
+            "Name": "<Name of Addition>",
+            "Type": "",
+            "Image": "",
+            "Description": ""
+        },
+        {}
+    ]
+}

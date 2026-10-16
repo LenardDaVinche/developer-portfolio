@@ -1,0 +1,128 @@
+﻿@inject IHttpContextAccessor HttpContextAccessor
+@model EthicsWebApp.Models.Scenario
+@{
+    var mySession = HttpContextAccessor.HttpContext.Session.GetString("TestData");
+    ViewData["Title"] = "Scenario";
+}
+
+<style>
+    .ScenarioImage {
+        height: 500px;
+        min-width:25%;
+        max-width:75%;
+        background-image: url('@Url.Content("~/images/twoTrackSprite.png")');
+        background-size: 750px;
+        background-repeat: no-repeat;
+        background-position: center;
+        position: relative;
+    }
+    .variable1{
+        position: absolute;
+        left: 65%;
+        top: 35%;
+        max-height:30%;
+        max-width:20%;
+        display: block; 
+    }
+    .variable2 {
+        position: absolute;
+        left: 65%;
+        top: 58%;
+        max-height: 30%;
+        max-width: 20%;
+        display: block; 
+    }
+    .lever{
+        height: 10em;
+        position:absolute;
+        left: 34%;
+        top: 20%;
+    }
+    .train{
+        height: 10em;
+        position: absolute;
+        left: 5%;
+        top: 18%;
+    }
+
+</style>
+
+
+<div class="ScenarioImage" id="scenario">
+    
+    <img src="@Url.Content(ViewBag.Var1Image)" class="image variable1">
+    <img src="@Url.Content(ViewBag.Var2Image)" class="image variable2">
+
+    <img src="@Url.Content("~/images/leverNeutral.png")" class="image lever">
+    <img src="@Url.Content("~/images/trainInitialtrack.png")" class="image train" id="train">
+</div>
+
+<p>@ViewBag.ScenarioString</p>
+
+<form method="post" asp-controller="Ethics" asp-action="SubmitChoice">
+    <input type="radio" id="Var1" name="scenarioId" value="@Model.Var1">
+    <label for="Var1">@ViewBag.Var1</label><br>
+    <input type="radio" id="Var2" name="scenarioId" value="@Model.Var2">
+    <label for="Var2">@ViewBag.Var2</label><br>
+    <br />
+    <input type="submit" value="Submit">
+</form>
+
+<script>
+
+  // Toggle image visibility based on the class
+    function toggleImageVisibility(className, displayValue) {
+        var images = document.getElementsByClassName(className);
+        for (var i = 0; i < images.length; i++) {
+            images[i].style.display = displayValue;
+        }
+    }
+
+    // Add click event listeners to radio buttons for hiding images
+    document.getElementById("Var1").addEventListener("click", function() {
+        toggleImageVisibility("variable1", "none");
+        toggleImageVisibility("variable2", "block");
+    });
+
+    document.getElementById("Var2").addEventListener("click", function() {
+        toggleImageVisibility("variable1", "block");
+        toggleImageVisibility("variable2", "none");
+    });
+
+    // Show both sets of images initially
+    toggleImageVisibility("variable1", "block");
+    toggleImageVisibility("variable2", "block");
+
+
+
+
+    // Add click event listeners to radio buttons for moving train
+    document.getElementById("Var1").addEventListener("click", function() {
+        moveTrain("Var1");
+    });
+
+    document.getElementById("Var2").addEventListener("click", function() {
+        moveTrain("Var2");
+    });
+
+    function moveTrain(scenario) {
+        // Move the train differently based on the selected button
+        var train = document.getElementById("train");
+        if (scenario === "Var1") {
+            // Move the train to a new position for Var1
+            train.style.left = '60%'; 
+            train.style.top = '27%';
+        } else if (scenario === "Var2") {
+            // Move the train to a new position for Var2
+            train.style.left = '56%';
+            train.style.top = '54%';
+        }
+    }
+</script>
+
+
+
+
+
+
+

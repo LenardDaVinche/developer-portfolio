@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>StaticPrototype</title>
+        <!-- the CSS for the page/server -->
+        <link rel="stylesheet" href="style.css">
+        <!-- Script to handle choices and whatnote-->
+        <script src="proto.js"></script> 
+        <!-- adding jQuery to the page-->
+        <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'></script>        
+    </head>
+    <!-- Once the page loads perform the main function from the script-->
+    <body>
+        <h1> The Trolly Problem </h1>
+        <p> A train is on a track heading towards 5 people, your next to a lever, the lever will divert the train onto a different track saving the 5 people. BUT will instead kill 1 person</p>
+
+        <form method="get" id="form" action="scenario1.html">
+            <input type="submit" value="Start" id="button">
+        </form>
+        
+        <script type='text/javascript'>
+            $(document).ready(function() { 
+              $('#button').change(function(){
+                   $('#form').submit();
+              });
+             });
+           </script>   
+
+    </body>
+</html>

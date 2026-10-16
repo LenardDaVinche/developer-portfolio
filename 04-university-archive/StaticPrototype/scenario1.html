@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Scenarios</title>
+    <!-- the CSS for the page/server -->
+    <link rel="stylesheet" href="style.css">
+    <script src="proto.js"></script>
+</head>
+
+<body onload="main()">
+    <h1 id="header1">Scenario <span id="num">1</span></h1>
+    <div id="container">
+        <h2>The Trolley Problem</h2>
+        <img src="" alt="<illustration goes here>"></img>
+        <p>A train is hurtling down a track towards a group of people, its brakes having failed. It reaches a junction
+            controlled by a lever. You are standing by the lever and have the option of pulling the lever, killing <span
+                id="desc1"> </span>,
+            or letting the train pass, killing <span id="desc2"> </span>
+        </p>
+
+        <form class="option" id="formChoices" onsubmit="formSubmit()">
+            <input type="radio" id="ch1" name="choice" value="kill1">
+            <label for="ch1">Pull lever Killing <span id="optDesc1"> </span> </label><br>
+            <input type="radio" id="ch2" name="choice" value="kill5">
+            <label for="ch2">Leave it alone Killing <span id="optDesc2"> </span> </label><br>
+            <br>
+            <input type="submit" value="Submit">
+        </form>
+        <p id="prevChoice"></p>
+    </div>
+</body>
+
+</html>

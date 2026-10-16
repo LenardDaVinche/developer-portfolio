@@ -1,0 +1,57 @@
+﻿@model EthicsWebApp.Models.Scenario
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Details</title>
+</head>
+<body>
+
+<div>
+    <h4>Scenario</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Background)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Background)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Var1)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Var1)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Var2)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Var2)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Attr1)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Attr1)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Attr2)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Attr2)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.SceID">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>
+</body>
+</html>

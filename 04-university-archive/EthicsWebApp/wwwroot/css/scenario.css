@@ -1,0 +1,42 @@
+﻿.container {
+    position: relative;
+    width: 645px;
+    height: 430px;
+}
+
+
+
+.image {
+    position: absolute;
+}
+
+/* Adjust z-index to control stacking order */
+.image1 {
+    z-index: 1;
+}
+
+.image2 {
+    z-index: 2;
+    left: 13px; /* x-coordinate */
+    top: 78px; /* y-coordinate */
+}
+
+.image3 {
+    z-index: 2;
+    left: 178px;
+    top: 65px;
+}
+
+.image4 {
+    z-index: 2;
+    left: 440px;
+    top: 150px;
+    width: 100px;
+    height: 80px;
+}
+
+.image5 {
+    z-index: 2;
+    left: 380px;
+    top: 220px;
+}

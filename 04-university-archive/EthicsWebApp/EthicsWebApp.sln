@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EthicsWebApp", "EthicsWebApp.csproj", "{056CCE7E-4C2C-4D73-B1E3-5C9FD043E770}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{056CCE7E-4C2C-4D73-B1E3-5C9FD043E770}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{056CCE7E-4C2C-4D73-B1E3-5C9FD043E770}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{056CCE7E-4C2C-4D73-B1E3-5C9FD043E770}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{056CCE7E-4C2C-4D73-B1E3-5C9FD043E770}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4EB32F8D-50B2-495F-BD66-4D54AA76C8A2}
+	EndGlobalSection
+EndGlobal
